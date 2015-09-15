@@ -1,8 +1,7 @@
-body {
- 
 
-}
-
-h1{
-
+/*
+   id "red" textkleur rood geven
+*/
+#red{
+    color: red;
 }
