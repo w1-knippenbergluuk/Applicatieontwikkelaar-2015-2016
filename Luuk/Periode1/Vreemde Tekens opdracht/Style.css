@@ -1,0 +1,30 @@
+#banner {
+    
+    color: #ffd800;
+    font-family: Tahoma;
+}
+
+#footer {
+    font-style: italic;
+    font-family: 'Bauhaus 93';
+    font-size: 20px;
+}
+
+h3 span    {
+    color: blue;
+    text-decoration: underline;
+    background-color: yellow; 
+}
+p span   {
+    border-bottom:  2px dashed red;
+    font-weight: bold;
+    background-color: yellow;
+}
+
+h1:first-child {
+    background-color: yellow;
+}
+
+h3:last-child {
+    color: red;
+}

@@ -1,0 +1,15 @@
+body {
+    
+}
+
+
+
+#hoofd  {
+    z-index: 5;
+}
+
+#oog    {
+    z-index: 4;
+    width: 400px;
+    height: 400px;
+}
