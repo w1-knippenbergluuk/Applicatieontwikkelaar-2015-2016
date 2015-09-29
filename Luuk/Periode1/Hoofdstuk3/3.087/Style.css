@@ -1,0 +1,8 @@
+
+/*
+   h1 tag blauw en gecentreerd
+*/
+h1  {
+    color: blue;
+    text-align: center;
+}

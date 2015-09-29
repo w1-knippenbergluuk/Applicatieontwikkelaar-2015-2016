@@ -1,0 +1,17 @@
+
+/*
+   achtergrond zwart
+*/
+body    {
+    background-color: black;
+}
+
+
+/*
+   h1 tag italic en wit weergeven
+*/
+h1  {
+    font-style: italic;
+    color: white;
+    font-family: "Tahoma";
+}
