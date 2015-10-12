@@ -1,0 +1,142 @@
+
+#container  {
+    border: 5px solid black;
+    width: 792px;
+    height: 800px;
+        margin-left: auto;
+    margin-right: auto;
+}
+
+#banner {
+    background-image: url("image/Banner.jpg");
+    width: 792px;
+    height: 130px;
+    border-bottom: 5px solid black;
+    display: block;
+
+}
+
+
+#header {
+    height: 180px;
+    width: 792px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1:First-child  {
+    margin: auto;
+    color: white;
+    width: 50%;
+}
+
+#menu   {
+    height: 50px;
+    width: 100%;
+}
+
+table  {
+    height: 100%;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr    {
+    width: 25%;
+    padding: 0;
+    margin: 0;
+    height: 50px;
+}
+
+table tr td    {
+    width: 25%;
+    padding: 0;
+    margin: 0;
+}
+
+table tr td a   {
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    height: 100%;
+    
+}
+
+#orange {
+    background-color: #FF7C21;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+#yellow {
+    background-color: #B4E51A;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+#blue {
+    background-color: #00A6DC;
+    border-right: 5px solid black;
+}
+
+#blue2 {
+    background-color: #00A6DC;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+    border-top: 5px solid black;
+}
+
+#blue3 {
+    background-color: #00A6DC;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+}
+
+#red {
+    background-color: #E71E24;
+    border-bottom: 5px solid black;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+}
+
+nav ul{
+    list-style-type: none;
+    width: 100%;
+        
+}
+
+nav ul li{
+    display: inline;
+    width: 25%;
+    margin: 0;
+    padding: 0;
+    border: 5px solid black;
+    float: left;
+}
+
+nav ul li ul {
+    
+    margin: 0;
+    padding: 0;
+    display: block;
+    float: left;
+}
+
+nav ul li ul li{
+    
+    width: 100%;
+    margin: 0;
+    padding: 0;
+   
+    display: block;
+    float: left;
+}
+
+nav ul li a{
+    text-decoration: none;
+    display: block;
+}
