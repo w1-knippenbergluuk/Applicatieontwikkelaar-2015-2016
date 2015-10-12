@@ -1,0 +1,7 @@
+/* Maak hier je opdracht! */
+
+
+/* selecteer in de id div2 de p tag en verander daar de tekstkleur van in rood */
+#div2 p {
+    color: red;
+}

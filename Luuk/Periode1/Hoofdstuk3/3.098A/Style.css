@@ -1,0 +1,9 @@
+
+/*
+    de id bold en een bottom border gegeven
+*/
+#belangrijk
+{
+ font-weight: bold;
+ border-bottom: 1px dashed red;
+}
