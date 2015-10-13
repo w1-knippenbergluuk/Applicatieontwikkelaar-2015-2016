@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html lang="en">
     <head>
@@ -17,6 +17,10 @@
                 <li><a href="#">CONTACT</a></li>
             </ul>
         </div>
+-->
+<?php
+    include('includes/head.php');
+?>
         <div id="wrapper">
             <div id="header">
                 <a href="index.html"><img src="images/banner4bwblur.jpg" alt="banner"/></a>
@@ -62,7 +66,14 @@
                     </div>
                 </div>
             </div>
-            
+<?php
+    include('includes/footer.php');
+?>
+<!--
+            <div id="footer">
+                © 2015 Luuk Knippenberg
+            </div>
         </div>
     </body>
 </html>
+-->
