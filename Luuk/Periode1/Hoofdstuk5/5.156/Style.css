@@ -1,0 +1,14 @@
+/*kleur van linktekst rood*/
+p a   {
+    color: red;
+}
+
+/*kleur van linktekst groen zodra het bezocht is*/
+p a:visited   {
+    color: green;
+}
+
+/*kleur van linktekst blauw zodra er over wordt gehovered*/
+p a:hover   {
+    color: blue;
+}
