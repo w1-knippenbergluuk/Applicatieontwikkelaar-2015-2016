@@ -1,14 +1,9 @@
-/*kleur van linktekst rood*/
+/*geen lijn onder de tekst*/
 p a   {
-    color: red;
+    text-decoration: none;
 }
 
-/*kleur van linktekst groen zodra het bezocht is*/
-p a:visited   {
-    color: green;
-}
-
-/*kleur van linktekst blauw zodra er over wordt gehovered*/
+/*lijn onder de tekst zodra je hovered*/
 p a:hover   {
-    color: blue;
+    text-decoration: underline;
 }
