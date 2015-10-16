@@ -1,0 +1,25 @@
+body {
+    background-image: url("earth.gif");
+}
+a:hover
+{
+	color: #f00;
+    text-decoration: underline;
+    font-weight: bold;
+}
+a:visited
+{
+	color: green;
+    text-decoration: none;
+}
+a:link
+{
+	color: red;
+    text-decoration: none;
+}
+p:first-letter {
+    color: #f00;
+    font-weight: bold;
+    font-size: larger;
+    
+}

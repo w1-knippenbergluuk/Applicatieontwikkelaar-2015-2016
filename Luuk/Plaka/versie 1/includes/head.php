@@ -10,10 +10,10 @@
     <body>
         <div id="menu">
             <ul>
-                <li><a href="#">HOME</a></li>
+                <li><a href="index.php">HOME</a></li>
                 <li><a href="#">LEDEN</a></li>
                 <li><a href="#">NIEUWS</a></li>
                 <li><a href="#">BLOGS</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a href="contact.php">CONTACT</a></li>
             </ul>
         </div>
