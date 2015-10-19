@@ -29,19 +29,20 @@
 
                 <div id="leden">                   
                     <div class="lid">
-                        <img src="images/carolabw.jpg" alt="Carola Bouchoms"/>
+                        
+                        <a href="carola.php"><img src="images/carolabw.jpg" alt="Carola Bouchoms"/></a>
                         <p><span class="bold">Carola Bouchoms</span> <br /> Beeldend Kunstenaar </p>
                     </div>
                     <div class="lid">
-                        <img src="images/hansbw.jpg" alt="Hans van Gerwen"/>
+                        <a href="hans.php"><img src="images/hansbw.jpg" alt="Hans van Gerwen"/></a>
                         <p><span class="bold">Hans van Gerwen</span> <br /> Edelsmit</p>
                     </div>
                     <div class="lid">
-                        <img src="images/riannebw.jpg" alt="Rianne van der Steen"/>
+                        <a href="rianne.php"><img src="images/riannebw.jpg" alt="Rianne van der Steen"/></a>
                         <p><span class="bold">Rianne van der Steen</span> <br /> Mode Ontwerpster</p>
                     </div>
                     <div class="lid">
-                        <img src="images/ruthbw.jpg" alt="Ruth van de Pol"/>
+                        <a href="ruth.php"><img src="images/ruthbw.jpg" alt="Ruth van de Pol"/></a>
                         <p><span class="bold">Ruth van de Pol</span> <br />Beeldend Kunstenaar</p>
                     </div>
                 </div>

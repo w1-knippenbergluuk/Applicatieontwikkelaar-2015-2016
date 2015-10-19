@@ -127,3 +127,54 @@ h1  {
     margin: 0;
     text-align: center;
 }
+
+.lidTest  {
+    width: 100%;
+    position: relative;
+    height: 100%;
+    padding: 0px 0px 0px 0px;
+    display: inline-block;
+    /*border-bottom: 1px solid #5B3E50;*/
+}
+
+.lidTest img  {
+    border-radius: 50%;
+    position: relative;
+    height: 175px;
+    width: 175px;
+    padding: 0px 0px 0px 0px;
+    display: inline-block;
+    top: 50%;
+}
+
+.ledenImage {
+    width: 175px;
+    height: 175px;
+    position: relative;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    
+}
+
+.ledenText  {
+    width: 60%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    float: left;
+    padding: 0px 0px 0px 30px;
+    margin: 0px 0px 50px 0px;
+}
+
+
+.firstLetter    {
+   font-weight: bold; 
+   font-size: 40px;
+}
+
+
+.boldLid   {
+    font-weight: bold;
+    padding-top: 10px;
+}
