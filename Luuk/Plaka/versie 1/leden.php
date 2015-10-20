@@ -11,7 +11,7 @@
             
                 <div class="lidTest">
                     <div class="ledenImage">
-                        <p><span class="boldLid">Carola Bouchoms</span> <br /> Beeldend Kunstenaar </p>
+                        <a href="carola.php"><p><span class="boldLid">Carola Bouchoms</span> <br /> Beeldend Kunstenaar </p></a>
                         <a href="carola.php"><img src="images/carolabw.jpg" alt="Carola Bouchoms"/></a>
                     </div>
                     <div class="ledenText">

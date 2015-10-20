@@ -9,6 +9,10 @@
     </head>
     <body>
         <div id="menu">
+            <div id="socialMedia">
+                <a href="https://www.facebook.com/Plakaateliers?"><img src="images/facebook-icon.jpg" alt="Facebook Profiel" /></a>
+                <a href="https://www.twitter.com/PlakaKunst"><img src="images/twitter-icon.jpg" alt="Twitter Profiel" /></a>
+            </div>
             <ul>
                 <li><a href="index.php">HOME</a></li>
                 <li>
