@@ -7,7 +7,7 @@
                 <a href="index.php"><img src="images/banner4BWblur.jpg" alt="banner"/></a>
             </div>
             <div id="content">
-                <h1>Leden </h1>
+                <h1>LEDEN </h1>
             
                 <div class="lidTest">
                     <div class="ledenImage">

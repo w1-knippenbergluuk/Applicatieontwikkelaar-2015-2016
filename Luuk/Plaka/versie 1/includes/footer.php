@@ -1,5 +1,5 @@
             <div id="footer">
-                © 2015 Plaka Kunst - Luuk Knippenberg Webdesign
+                <p>© 2015 Plaka Kunst - Luuk Knippenberg Webdesign</p>
             </div>
         </div>
     </body>

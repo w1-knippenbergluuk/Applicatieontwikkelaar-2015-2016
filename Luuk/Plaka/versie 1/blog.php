@@ -5,19 +5,63 @@
         <div id="wrapper">
             <div id="header">
                 <a href="index.php"><img src="images/banner4BWblur.jpg" alt="banner"/></a>
+                <!--
+                <div class="container">
+                    <div id="slides">
+                        <img src="images/banner4.jpg" alt="Photo by: Missy S Link: http://www.flickr.com/photos/listenmissy/5087404401/">
+                        <img src="images/banner4BW.jpg" alt="Photo by: Daniel Parks Link: http://www.flickr.com/photos/parksdh/5227623068/">
+                        <img src="images/banner4BWblur.jpg" alt="Photo by: Mike Ranweiler Link: http://www.flickr.com/photos/27874907@N04/4833059991/">
+                    </div>
+                </div>
+                -->
             </div>
+
+            
+            
             <div id="content">
-                <h1>Blog </h1>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-                     Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                     Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                     Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-                     In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-                     Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
-                     Aenean vulputate eleifend tellus.
-                     Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
-                     Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
-                     Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
+
+                
+
+                <h1>BLOG </h1>
+                <p class="bold">
+                    PLAKA Ateliers is vernieuwd! Om dit te vieren organiseren wij het Antheia Symposium ALLES voor de kunst op zaterdag 31 oktober a.s. in megen.
+                </p>
+                <p>
+                    Filosoof Katja Rodenburg (Antheia) en de kunstenaars van PLAKA ateliers nemen u mee naar de fascinerende wereld van de filosofie.
+                     Arthur Schopenhauer, Friedrich Nietzsche en edvard Munch maken onderdeel uit van deze dag voor kunstliefhebbers en kunstenaars.
+                </p>
+                <p>
+                    Wat is de betekenis en waarde van de kunst? "ALLES"! Het antwoord van Arthur Schopenhauer, Friedrich Nietzsche en Edvard Munch is duidelijk.
+                    Op dit symposium presenteren wij de ideeën van deze twee filosofen. De kunstenaar Munch vond in hun werk zijn inspiratie. Waarom maken wij kunst?
+                    Op welke manier komt het kunstwerk tot stand? Wat is de funcite van kunst in het dagelijk leven? 
+                    Uit welke verschillende onderdelen en vormen krijgen wij inzicht in de essentiële betekenis van de kunst m.b.t. onze identiteit.
+                </p>
+                <p>
+                    De dag vindt plaats in het monumentale pand Acropolis, een voormalig gymnasium in het hart van verstigingstadje Megen,
+                    Tussen twee actieve kloosters van de minderbroeders Franciscanen en Clarissen.
+                    Een bijzondere plek aan de Maas die per openbaar vervoer of per auto te bereiken is.
+                </p>
+                <p>
+                    Een bijzondere gelegenheid en een boeiend programma, waarbij kijken, luisteren en bespreken elkaar afwisselen.
+                    Tot slot heffen wij het glas. De kunstenaars van PLAKA ateliers geven een informele presentatie. 
+                    Wij presenteren ieder één werk uit ons oeuvre en vertellen hoe het is onstaan, van idee tot uitvoering.
+                </p>
+                <p>
+                    Lees er verder over in het uitgebreide programma in de bijlage van dit bericht.
+                     Daarin meer informatie over het thema, de sprekers en de inschrijving.
+                    Na aanmelding ontvangt u de routebeschrijving en de praktische informatie.
+                </p>
+                <p>
+                    Brengt u belangstellenden in uw omgeving ook op de hoogste van deze dag?
+                    Bij voorbaat dank voor de genomen moeite. Wij stellen dit erg op prijs.
+                </p>
+                <p>
+                    Tot ziens in het knusse megen.
+                </p>
+                <p>
+                    <span class="bold">Met vriendelijke groet van Katja Rodernburg</span> / 06 3828092<br />
+                    De kunstenaars van PLAKA ateliers,<br />
+                    Carola Bouchoms, Hans van Gerwen, Rianne van der Steen en Ruth van de Pol
                 </p>
             </div>
 <?php
