@@ -4,11 +4,11 @@
 ?>
         
             <div id="content">
-                <h1>CAROLA BOUCHOMS </h1>
+                <h1>HANS VAN GERWEN </h1>
             
                 <div class="lidTest">
                     <div class="ledenImage">
-                        <p><span class="boldLid">Carola Bouchoms</span> <br /> Beeldend Kunstenaar </p>
+                        <p><span class="boldLid">Hans van Gerwen</span> <br /> Edelsmit </p>
                         <img src="images/carolabw.jpg" alt="Carola Bouchoms"/>
                     </div>
                     <div class="ledenText">

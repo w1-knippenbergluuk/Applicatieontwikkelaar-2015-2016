@@ -47,3 +47,7 @@
                 
             </ul>
         </div>
+        <div id="wrapper">
+            <div id="header">
+                <a href="index.php"><img src="images/banner4BWblur.jpg" alt="banner"/></a>
+            </div>

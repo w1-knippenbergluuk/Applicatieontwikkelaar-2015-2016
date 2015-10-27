@@ -36,7 +36,7 @@ body    {
     text-align: center;
     margin: 0 auto;
     position: relative;
-    bottom: 100px;
+    bottom: 120px;
     right: 29px;
 }
 
@@ -87,22 +87,20 @@ body    {
 
 #socialMedia    {
     position: relative;
-    height: 10px;
+    height: 29px;
     margin: 20px;
     left: 85%;
     bottom: 75px;
 }
 
 #socialMedia a  {
-    position: relative;
-    height: 10px;
-    
+    z-index: 99999;
 }
 
 #socialMedia img   {
     width: 29px;
     position: relative;
-    
+    z-index: 99998;
 }
 
 #socialMedia img:hover   {
@@ -276,7 +274,11 @@ h1  {
     }
     
     #content    {
-    padding: 10px 10px 10px 10px;
+    padding: 15px 15px 15px 15px;
+}
+
+    #content p   {
+    padding: 15px 15px 15px 15px;
 }
 
     #menu {
@@ -321,7 +323,7 @@ h1  {
 
     #socialMedia    {
     position: relative;
-    height: 10px;
+    height: 29px;
     margin: 20px;
     left: 85%;
 }
@@ -329,7 +331,11 @@ h1  {
     #socialMedia img   {
         width: 15px;
         position: relative;
-    
+        z-index: 99998;
+    }
+
+    #socialMedia a  {
+        z-index: 99999;
     }
 
     #ledenText  {
@@ -351,6 +357,11 @@ h1  {
         width: 100%;
         padding: 0px 0px 0px 0px;
     }
+
+     #content p   {
+    padding: 0px 15px 0px 15px;
+}
+
         #header {
         width: 100%;
     }
@@ -377,7 +388,7 @@ h1  {
     #menu ul {
         width: 100%;
         /*right: 25px;*/
-        
+        bottom: 100px;
     }
 
     menu ul li {
@@ -397,10 +408,14 @@ h1  {
     left: 85%;
 }
 
+    #socialMedia a  {
+        z-index: 99999;
+    }
+    
     #socialMedia img   {
         width: 15px;
         position: relative;
-    
+        z-index: 99998;
     }
 
     #ledenText  {
@@ -422,6 +437,11 @@ h1  {
         width: 100%;
         padding: 0px 0px 0px 0px;
     }
+    
+    #content p   {
+    padding: 0px 15px 0px 15px;
+}
+    
         #header {
         width: 100%;
     }
@@ -461,14 +481,20 @@ h1  {
 
     #socialMedia {
         position: relative;
-        height: 10px;
+        height: 29px;
         margin: 20px;
         left: 85%;
     }
 
+    #socialMedia a  {
+    
+     z-index: 99999;
+}
+
     #socialMedia img {
         width: 15px;
         position: relative;
+        z-index: 99998;
     }
 
     #ledenText {
@@ -489,6 +515,10 @@ h1  {
         width: 100%;
         padding: 0px 0px 0px 0px;
     }
+
+    #content p   {
+    padding: 0px 15px 0px 15px;
+}
 
     #header {
         width: 100%;

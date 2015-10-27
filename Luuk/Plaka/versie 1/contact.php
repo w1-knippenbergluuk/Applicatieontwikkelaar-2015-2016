@@ -2,10 +2,7 @@
 <?php
     include('includes/head.php');
 ?>
-        <div id="wrapper">
-            <div id="header">
-                <a href="index.php"><img src="images/banner4BWblur.jpg" alt="banner"/></a>
-            </div>
+        
             <div id="content">
                 <h1>Contact </h1>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.

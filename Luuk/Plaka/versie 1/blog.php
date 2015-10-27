@@ -1,23 +1,7 @@
 
 <?php
     include('includes/head.php');
-?>
-        <div id="wrapper">
-            <div id="header">
-                <a href="index.php"><img src="images/banner4BWblur.jpg" alt="banner"/></a>
-                <!--
-                <div class="container">
-                    <div id="slides">
-                        <img src="images/banner4.jpg" alt="Photo by: Missy S Link: http://www.flickr.com/photos/listenmissy/5087404401/">
-                        <img src="images/banner4BW.jpg" alt="Photo by: Daniel Parks Link: http://www.flickr.com/photos/parksdh/5227623068/">
-                        <img src="images/banner4BWblur.jpg" alt="Photo by: Mike Ranweiler Link: http://www.flickr.com/photos/27874907@N04/4833059991/">
-                    </div>
-                </div>
-                -->
-            </div>
-
-            
-            
+?> 
             <div id="content">
 
                 

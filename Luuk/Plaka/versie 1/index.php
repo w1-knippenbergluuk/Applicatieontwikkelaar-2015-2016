@@ -2,10 +2,7 @@
 <?php
     include('includes/head.php');
 ?>
-        <div id="wrapper">
-            <div id="header">
-                <a href="index.php"><img src="images/banner4BWblur.jpg" alt="banner"/></a>
-            </div>
+        
             <div id="content">
                 <h1>WELKOM BIJ PLAKA </h1>
                 <p>

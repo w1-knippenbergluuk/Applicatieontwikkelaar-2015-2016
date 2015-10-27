@@ -2,10 +2,7 @@
 <?php
     include('includes/head.php');
 ?>
-        <div id="wrapper">
-            <div id="header">
-                <a href="index.php"><img src="images/banner4BWblur.jpg" alt="banner"/></a>
-            </div>
+        
             <div id="content">
                 <h1>LEDEN </h1>
             
@@ -25,8 +22,8 @@
                 </div>
                 <div class="lidTest">
                     <div class="ledenImage">
-                        <p><span class="bold">Hans van Gerwen</span> <br /> Edelsmit</p>
-                        <img src="images/hansbw.jpg" alt="Hans van Gerwen"/>
+                        <a href="hans.php"><p><span class="bold">Hans van Gerwen</span> <br /> Edelsmit</p></a>
+                        <a href="hans.php"><img src="images/hansbw.jpg" alt="Hans van Gerwen"/></a>
                     </div>
                     <div class="ledenText">
                         <p><span class="firstLetter">L</span>orem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
@@ -38,8 +35,8 @@
                 </div>
                 <div class="lidTest">
                     <div class="ledenImage">
-                        <p><span class="bold">Rianne van der Steen</span> <br /> Mode Ontwerpster</p>
-                        <img src="images/riannebw.jpg" alt="Rianne van der Steen"/>
+                        <a href="rianne.php"><p><span class="bold">Rianne van der Steen</span> <br /> Mode Ontwerpster</p></a>
+                        <a href="rianne.php"><img src="images/riannebw.jpg" alt="Rianne van der Steen"/></a>
                     </div>
                     <div class="ledenText">
                         <p><span class="firstLetter">L</span>orem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
@@ -51,8 +48,8 @@
                 </div>
                 <div class="lidTest">
                     <div class="ledenImage">
-                        <p><span class="bold">Ruth van de Pol</span> <br />Beeldend Kunstenaar</p>
-                        <img src="images/ruthbw.jpg" alt="Ruth van de Pol"/>
+                        <a href="ruth.php"><p><span class="bold">Ruth van de Pol</span> <br />Beeldend Kunstenaar</p></a>
+                        <a href="ruth.php"><img src="images/ruthbw.jpg" alt="Ruth van de Pol"/></a>
                     </div>
                     <div class="ledenText">
                         <p><span class="firstLetter">L</span>orem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
