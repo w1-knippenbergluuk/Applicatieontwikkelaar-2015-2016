@@ -41,7 +41,7 @@
                     Tot ziens in het knusse megen.
                 </p>
                 <p>
-                    <span class="bold">Met vriendelijke groet van Katja Rodernburg</span> / 06 3828092<br />
+                    <span class="bold">Met vriendelijke groet van Katja Rodenburg</span> / 06 3828092<br />
                     De kunstenaars van PLAKA ateliers,<br />
                     Carola Bouchoms, Hans van Gerwen, Rianne van der Steen en Ruth van de Pol
                 </p>

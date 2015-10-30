@@ -76,5 +76,5 @@
         </div>
         <div id="wrapper">
             <div id="header">
-                <a href="index.php"><img src="images/banner2cut3.jpg" alt="banner"/></a>
+                <a href="index.php"><img src="images/banner1BWcut.jpg" alt="banner"/></a>
             </div>
