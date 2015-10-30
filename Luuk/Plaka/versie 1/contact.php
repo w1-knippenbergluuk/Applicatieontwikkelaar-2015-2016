@@ -4,7 +4,7 @@
 ?>
         
             <div id="content">
-                <h1>Contact </h1>
+                <h1>CONTACT </h1>
                 <p> 
                     <span class="bold">Bezoekadres:</span><br />
                     Wilhelminastraat 6, 1e etage, 5366 BD  Megen. <br />

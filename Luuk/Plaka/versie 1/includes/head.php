@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width">
-        <title>Plaka Kunst</title>
+        <title>Plaka Ateliers</title>
         <link href="css/style.css" rel="stylesheet">
         <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300|Open+Sans' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/example.css">
