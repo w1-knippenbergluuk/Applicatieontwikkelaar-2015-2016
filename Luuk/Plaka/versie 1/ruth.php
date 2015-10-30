@@ -30,14 +30,16 @@
                             Vanaf  2003 organiseert ze lezingen in op het grensgebied van kunst en filosofie en verzorgt ze samen met Thom de Jong
                               workshops teambuilding.
                         </p>
-
+                        <!--
                         </p>
+                        
                             Het atelier is te vinden in PLAKA te Megen. U bent van harte uitgenodigd<br />
                             bel voor een afspraak:<br />
                             Tel: 0412-462127<br />
                             Mob: 06-29436202<br />
+                        
                         </p>
-
+                        -->
                         <h2>Statement</h2>
 
                         <p>
