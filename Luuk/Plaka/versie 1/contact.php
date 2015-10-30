@@ -7,8 +7,8 @@
                 <h1>Contact </h1>
                 <p> 
                     <span class="bold">Bezoekadres:</span><br />
-                    Wilhelminastraat 6, 1e etage, 5366 BD  Megen
-                    We zijn iedere eerste zondag van de maand geopend van 13.30-17.00 uur of op afspraak.
+                    Wilhelminastraat 6, 1e etage, 5366 BD  Megen. <br />
+                    We zijn open op afspraak.
                 </p>
                 <p> 
                     <span class="bold">Postadres:</span><br />

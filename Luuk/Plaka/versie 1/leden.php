@@ -9,7 +9,7 @@
                 <div class="lidTest">
                     <div class="ledenImage">
                         <a href="carola.php"><p><span class="boldLid">Carola Bouchoms</span> <br /> Beeldend Kunstenaar </p></a>
-                        <a href="carola.php"><img src="images/carolabw.jpg" alt="Carola Bouchoms"/></a>
+                        <a href="carola.php"><img src="images/carola/IMG_2058_thumbBW.jpg" alt="Carola Bouchoms"/></a>
                     </div>
                     <div class="ledenText">
                         
@@ -21,7 +21,7 @@
                 <div class="lidTest">
                     <div class="ledenImage">
                         <a href="hans.php"><p><span class="bold">Hans van Gerwen</span> <br /> Edelsmid</p></a>
-                        <a href="hans.php"><img src="images/hans/DSC_9482_bewerkt.jpg" alt="Hans van Gerwen"/></a>
+                        <a href="hans.php"><img src="images/hans/DSC_9482_bewerktBW.jpg" alt="Hans van Gerwen"/></a>
                     </div>
                     <div class="ledenText">
                         <p><span class="firstLetter">B</span>ij het ontwerpen en vervaardigen van mijn sieraden en objecten ben ik steeds op zoek naar vorm,
@@ -32,14 +32,13 @@
                 <div class="lidTest">
                     <div class="ledenImage">
                         <a href="rianne.php"><p><span class="bold">Rianne van der Steen</span> <br /> Mode Ontwerpster</p></a>
-                        <a href="rianne.php"><img src="images/riannebw.jpg" alt="Rianne van der Steen"/></a>
+                        <a href="rianne.php"><img src="images/rianne/ProfielfotoRiannebw.jpg" alt="Rianne van der Steen"/></a>
                     </div>
                     <div class="ledenText">
-                        <p><span class="firstLetter">L</span>orem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-                     Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                     Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                     Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-                     In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. </p>
+                        <p>
+                            <span class="firstLetter">R</span>ianne van der Steen maakt geen mode, het is een stijl, 
+                            een principe dat past bij een vrouw die goed in haar vel zit en geen tierlantijnen nodig heeft om haar persoonlijkheid te benadrukken.
+                        </p>
                     </div>
                 </div>
                 <div class="lidTest">
@@ -48,11 +47,30 @@
                         <a href="ruth.php"><img src="images/ruthbw.jpg" alt="Ruth van de Pol"/></a>
                     </div>
                     <div class="ledenText">
-                        <p><span class="firstLetter">L</span>orem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-                     Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                     Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                     Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-                     In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. </p>
+                        <p>
+                            <span class="firstLetter">S</span>inds 1996 actief als beeldend kunstenaar. 
+                        </p>
+                        <p>
+                            Ruth van de Pol  volgde haar opleidingen te Den Bosch (LO Tekenen) en aan Hogeschool Gelderland (docent) te Nijmegen
+                             en studeerde in 1996  (autonoom) af aan de Academie voor Beeldende Kunsten te Tilburg.
+                        </p>
+                    </div>
+                </div>
+                <div class="lidTest">
+                    <div class="ledenImage">
+                        <a href="nieuwLid.php"><p><span class="bold">Nieuw lid</span> <br />...</p></a>
+                        <a href="nieuwLid.php"><img src="images/vraagtekenBW.jpg" alt="Nieuw Lid"/></a>
+                    </div>
+                    <div class="ledenText">
+                        <p>
+                            <span class="firstLetter">O</span>p dit moment hebben we plaats voor een nieuwe deelnemer. 
+                        </p>
+                        <p>
+                            
+                            We zijn heel nieuwsgierig of jij dat misschien bent…
+                            Omdat wij denken dat het, net zoals voor ons, een uitdaging en een nieuwe stap in je ontwikkeling zou kunnen zijn.
+
+                        </p>
                     </div>
                 </div>
             </div> 

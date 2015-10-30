@@ -9,7 +9,7 @@
                 <div class="lidTest">
                     <div class="ledenImage">
                         <p><span class="boldLid">Hans van Gerwen</span> <br /> Edelsmid </p>
-                        <img src="images/hans/DSC_9482_bewerkt.jpg" alt="Carola Bouchoms"/>
+                        <img src="images/hans/DSC_9482_bewerktBW.jpg" alt="Carola Bouchoms"/>
                     </div>
                     <div class="ledenText">
                         

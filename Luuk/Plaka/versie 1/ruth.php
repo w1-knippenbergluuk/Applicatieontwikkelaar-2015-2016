@@ -16,12 +16,7 @@
                         
                         <p>
                             <span class="firstLetter">S</span>inds 1996 actief als beeldend kunstenaar. 
-                            Het atelier is te vinden in PLAKA te Megen. U bent van harte uitgenodigd
-                        </p>
-                        </p>
-                            bel voor een afspraak:<br />
-                            Tel: 0412-462127<br />
-                            Mob: 06-29436202<br />
+                            
                         </p>
                         <p>
                             Ruth van de Pol  volgde haar opleidingen te Den Bosch (LO Tekenen) en aan Hogeschool Gelderland (docent) te Nijmegen
@@ -34,6 +29,13 @@
                         <p>
                             Vanaf  2003 organiseert ze lezingen in op het grensgebied van kunst en filosofie en verzorgt ze samen met Thom de Jong
                               workshops teambuilding.
+                        </p>
+
+                        </p>
+                            Het atelier is te vinden in PLAKA te Megen. U bent van harte uitgenodigd<br />
+                            bel voor een afspraak:<br />
+                            Tel: 0412-462127<br />
+                            Mob: 06-29436202<br />
                         </p>
 
                         <h2>Statement</h2>
@@ -64,7 +66,7 @@
                 </div>
                 <section>
                     <h3>Portfolio</h3>
-                    <!--
+                    
                     <div id="images">
                         <a class="example-image-link" href="images/ruth/ashewalkedthroughthegatessmall.jpg" data-lightbox="example-set" data-title="As he walked through the gates"><img class="example-image" src="images/ruth/ashewalkedthroughthegatessmall-180x180.jpg" alt=""/></a>
                         <a class="example-image-link" href="images/ruth/image003.jpg" data-lightbox="example-set" data-title="..."><img class="example-image" src="images/ruth/image003-180x180.jpg" alt=""/></a>
@@ -75,7 +77,8 @@
                         <a class="example-image-link" href="images/ruth/work-in-progress.jpg" data-lightbox="example-set" data-title="Work in progress"><img class="example-image" src="images/ruth/work-in-progress-180x180.jpg" alt=""/></a>
                         <a class="example-image-link" href="images/ruth/foto-11-640x480.jpg" data-lightbox="example-set" data-title="Atelier detail"><img class="example-image" src="images/ruth/foto-11-180x180.jpg" alt=""/></a>
                     </div> 
-                    -->
+                    
+                    <!--
                     <div id="images">
                         <a class="example-image-link" href="images/ruth/ashewalkedthroughthegatessmall.jpg" data-lightbox="example-set" data-title="As he walked through the gates"><img class="example-image" src="images/ruth/bw/ashewalkedthroughthegatessmall-180x180bw.jpg" alt=""/></a>
                         <a class="example-image-link" href="images/ruth/image003.jpg" data-lightbox="example-set" data-title="..."><img class="example-image" src="images/ruth/bw/image003-180x180bw.jpg" alt=""/></a>
@@ -85,7 +88,8 @@
                         <a class="example-image-link" href="images/ruth/reflections1.jpg" data-lightbox="example-set" data-title="Reflections 1"><img class="example-image" src="images/ruth/reflections1-180x180.jpg" alt=""/></a>
                         <a class="example-image-link" href="images/ruth/work-in-progress.jpg" data-lightbox="example-set" data-title="Work in progress"><img class="example-image" src="images/ruth/work-in-progress-180x180.jpg" alt=""/></a>
                         <a class="example-image-link" href="images/ruth/foto-11-640x480.jpg" data-lightbox="example-set" data-title="Atelier detail"><img class="example-image" src="images/ruth/foto-11-180x180.jpg" alt=""/></a>
-                    </div>   
+                    </div> 
+                    -->  
                 </section>
                 <script src="lightbox/lightbox2-master/dist/js/lightbox-plus-jquery.min.js"></script>
 

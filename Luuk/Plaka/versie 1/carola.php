@@ -9,7 +9,7 @@
                 <div class="lidTest">
                     <div class="ledenImage">
                         <p><span class="boldLid">Carola Bouchoms</span> <br /> Beeldend Kunstenaar </p>
-                        <img src="images/carolabw.jpg" alt="Carola Bouchoms"/>
+                        <img src="images/carola/IMG_2058_thumbBW.jpg" alt="Carola Bouchoms"/>
                     </div>
                     <div class="ledenText">
                         
