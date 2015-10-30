@@ -10,6 +10,8 @@
         <link rel="stylesheet" href="css/example.css">
         <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
         <script src="js/jquery.slides.min.js"></script>
+        <link href="lightbox/lightbox2-master/dist/css/lightbox.css" rel="stylesheet">
+        <script src="lightbox/lightbox2-master/dist/js/lightbox.js"></script>
         <script>
                 $(function() {
                   $('#slides').slidesjs({

@@ -5,11 +5,49 @@
         
             <div id="content">
                 <h1>WELKOM BIJ PLAKA </h1>
-                <p>
-                    Wij zijn als kunstenaarscollectief actief sinds 2001 en sinds 2009 een stichting. Niet alleen de kunst is voor ons belangrijk.
-                     Ook de middelen om er toe te komen. Kunst moet meer zijn dan een leuk plaatje, het moet voortkomen uit een achterliggende denkwijze of inzicht.
-                     Wij willen daarom ook de geest voeden. Via bewustwording, het lichaam als een gezonde basis en via filosofie voor nieuwe ideeën en denkwijze.
+                <p class="bold">
+                    PLAKA ateliers  is een initiatief van een groep verschillende kunstenaars en professionals.
+                     Zij ontwikkelen samen vanuit hun eigen disciplines kennis en kunde op het gebied van de kunst en vormgeving.
                 </p>
+
+                <p class="bold">
+                    Vanuit deze basis onderzoeken en bevorderen ze elkaars vakmanschap en delen de resultaten daarvan met elkaar en de maatschappij om hen heen.
+                     Het eigen bewustzijnsproces blijft in ontwikkeling en zorgt voor de vruchtbare grond en het fundament van de samenwerking.
+                </p>
+
+                <p class="bold">
+                    De naam PLAKA verwijst naar de wijk in het Athene van het oude Griekenland,
+                     waar van oudsher kunst en kunstnijverheid met elkaar gedeeld en beleefd werden.
+                </p>
+
+                <h3>Wat is kunst volgens PLAKA?</h3>
+                <p>
+                    PLAKA ateliers ziet de kunst in al haar vormen als een uniek middel om mensen wakker te maken en aan te sporen om eens anders naar de werkelijkheid om ons heen te kijken. 
+                </p>
+                <p>
+                    PLAKA ateliers is trots op de kunst en wil haar publiek graag meenemen in het proces van het maken, van idee naar uitvoering in de werkelijkheid.
+                </p>
+                <p>
+                    Kunst geeft elke toeschouwer de unieke gelegenheid om met een nieuwe blik naar zichzelf in relatie met anderen te kijken.
+                </p>
+                <p>
+                    Inspirerend en onderzoekend, bezield en kwetsbaar, indringend en speels.                                        
+                </p>
+                <p>
+                    Kunst volgens PLAKA ateliers nodigt je uit om opnieuw te leren kijken.                                     
+                </p>
+                
+                <h3>Wat wil PLAKA?</h3>
+                <p>
+                    PLAKA ateliers heeft de ambitie om de komende jaren hun uitstraling te vergroten en om meer mensen te laten delen in hun ontwikkeling.
+                     PLAKA wil het initiatief nemen en nieuwe, onderscheidende projecten realiseren. 
+                </p>
+                <p>
+                    PLAKA ateliers ziet het als haar taak om nieuwe perspectieven op de kunsten te laten zien en te ontwikkelen
+                     om het publiek in staat te stellen de waarden van de kunsten voor het leven zelf te ervaren.
+                     PLAKA ateliers wil daarmee aan zowel kunstenaars als hun publiek de gelegenheid geven om over de relatie tussen de kunst na te denken en te reflecteren.
+                </p>
+                <p>
 
                 <h1>NIEUWS </h1>
                 

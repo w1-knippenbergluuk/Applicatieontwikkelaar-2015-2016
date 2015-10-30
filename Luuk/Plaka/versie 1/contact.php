@@ -5,17 +5,29 @@
         
             <div id="content">
                 <h1>Contact </h1>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-                     Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                     Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                     Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-                     In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-                     Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
-                     Aenean vulputate eleifend tellus.
-                     Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
-                     Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.
-                     Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.
+                <p> 
+                    <span class="bold">Bezoekadres:</span><br />
+                    Wilhelminastraat 6, 1e etage, 5366 BD  Megen
+                    We zijn iedere eerste zondag van de maand geopend van 13.30-17.00 uur of op afspraak.
                 </p>
+                <p> 
+                    <span class="bold">Postadres:</span><br />
+                    Kloosterstraat 9, 5366 BG Megen
+                </p>
+                <p> 
+                    <span class="bold">U kunt:</span><br />
+                    Informatie opvragen betreffende mogelijkheden voor gastkunstenaars. Reserveren voor activiteiten en lezingen.
+                     Teambuilding voor bedrijven, rondleidingen al dan niet in combinatie met andere faciliteiten in Megen.
+                     U kunt  vrijblijvend een afspraak maken met één of meerdere kunstenaars voor hun werk en/of  bezoek aan hun ateliers.
+                </p> 
+                <p> 
+                    <span class="bold">Wij zijn telefonisch te bereiken via:</span><br />
+                    tel:+31(0) 412-462127<br />
+                    mob: 06-29436202
+                </p> 
+                <p> 
+                    Gebruik bij voorkeur onderstaand formulier:
+                </p>       
 
                 <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
 	                <div class="row">

@@ -13,24 +13,20 @@
                     </div>
                     <div class="ledenText">
                         
-                        <p><span class="firstLetter">L</span>orem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-                     Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                     Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                     Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-                     In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. </p>
+                        <p><span class="firstLetter">Z</span>elf wil ik creëren en met de werkelijkheid werken, met wat je in ‘het leven’ ziet.
+                             Gefascineerd door de mens. Ik heb altijd een constante drang om mensen te tekenen of te schilderen.
+                             Ik kan niet zonder bezieling en schuw de emotie niet. Bevrijd van alle regels maak ik mijn vrije bezielende werk. </p>
                     </div>
                 </div>
                 <div class="lidTest">
                     <div class="ledenImage">
-                        <a href="hans.php"><p><span class="bold">Hans van Gerwen</span> <br /> Edelsmit</p></a>
-                        <a href="hans.php"><img src="images/hansbw.jpg" alt="Hans van Gerwen"/></a>
+                        <a href="hans.php"><p><span class="bold">Hans van Gerwen</span> <br /> Edelsmid</p></a>
+                        <a href="hans.php"><img src="images/hans/DSC_9482_bewerkt.jpg" alt="Hans van Gerwen"/></a>
                     </div>
                     <div class="ledenText">
-                        <p><span class="firstLetter">L</span>orem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-                     Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                     Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                     Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
-                     In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. </p>
+                        <p><span class="firstLetter">B</span>ij het ontwerpen en vervaardigen van mijn sieraden en objecten ben ik steeds op zoek naar vorm,
+                             kleur en toepasbaarheid. Gebruikmakend van oude en nieuwe technieken o.a. ciseleren,
+                             drijven en 3d printen dit in combinatie met de fysieke eigenschappen van het gekozen materiaal (bijvoorbeeld plasticiteit, reflectie).  </p>
                     </div>
                 </div>
                 <div class="lidTest">

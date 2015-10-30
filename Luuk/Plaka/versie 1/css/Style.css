@@ -73,12 +73,13 @@ body    {
     width: 100px;
     height: 75px;
     position: relative;
-    
+    z-index: 99999;
 }
 
 #logo img  {
     width: 100px;
     height: 75px;
+    z-index: 99998;
 }
 
 #logo img:hover {
@@ -242,10 +243,29 @@ h1  {
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
+h3  {
+    text-align: center;
+}
+
 .boldLid   {
     font-weight: bold;
     padding-top: 10px;
 }
+
+#images img {
+    width: 24%;
+    height: 24%;
+}
+
+#images img:hover {
+    opacity: 0.6;
+}
+
+.ledenText p {
+        width: 120%
+    }
+
+
 
 @media (min-width: 481px) and  and (max-width: 1280px) {
     body    {
@@ -273,6 +293,11 @@ h1  {
         width: 100%;
     }
     
+    .ledenText p {
+        width: 80%
+    }
+    
+
     #content    {
     padding: 15px 15px 15px 15px;
 }
@@ -285,6 +310,15 @@ h1  {
         width: 100%;
         left: 0%;
     }   
+
+    .lidtest    {
+        left: 10%;
+    }
+
+    #images img {
+        width: 49%;
+        height: 49%;
+    }
 }
 
 
@@ -304,6 +338,11 @@ h1  {
             left: 0%;
         
         }
+
+    .ledenText p {
+        width: 80%
+    }
+
 
     #menu ul {
         width: 100%;
@@ -326,6 +365,11 @@ h1  {
     height: 29px;
     margin: 20px;
     left: 85%;
+    visibility: hidden;
+}
+
+    #logo   {
+    visibility: hidden;
 }
 
     #socialMedia img   {
@@ -346,9 +390,10 @@ h1  {
     #ledenImage  {
         width: 100%;
         float: none;
+        left: 20%;
     }
 
-    #lidTest  {
+    .lidTest  {
         width: 100%;
         
     }
@@ -365,6 +410,11 @@ h1  {
         #header {
         width: 100%;
     }
+
+    #images img {
+        width: 49%;
+        height: 49%;
+    }
 }
 
 /* For tablets & smart phones */
@@ -379,6 +429,10 @@ h1  {
         width: 100%;
     }
 
+    .ledenText p {
+        width: 80%
+    }
+    
     #menu {
             width: 100%;
             left: 0%;
@@ -418,17 +472,18 @@ h1  {
         z-index: 99998;
     }
 
-    #ledenText  {
-        width: 100%;
+    .ledenText  {
+        width: 90%;
         float: none;
     }
 
-    #ledenImage  {
+    .ledenImage  {
         width: 100%;
         float: none;
+        
     }
 
-    #lidTest  {
+    .lidTest  {
         width: 100%;
         
     }
@@ -446,7 +501,12 @@ h1  {
         width: 100%;
     }
         
+    #images img {
+        width: 49%;
+        height: 49%;
     }
+    
+}
 
 /* For smaller displays like laptops */
 @media (min-width: 768px) and (max-width: 979px) {
@@ -462,6 +522,10 @@ h1  {
     #menu {
         width: 100%;
         left: 0%;
+    }
+
+    .ledenText p {
+        width: 100%
     }
 
     #menu ul {
@@ -507,8 +571,9 @@ h1  {
         float: none;
     }
 
-    #lidTest {
+    .lidTest {
         width: 100%;
+        left: 10%;
     }
 
     #content {
@@ -523,6 +588,12 @@ h1  {
     #header {
         width: 100%;
     }
+
+    #images img {
+        width: 49%;
+        height: 49%;
+    }
+
 }
 
         
