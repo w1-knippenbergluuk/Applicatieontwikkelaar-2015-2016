@@ -1,0 +1,297 @@
+/*body zonder rand*/
+body {
+    background-color: #E6E7E2;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/*dikgedrukte klasse*/
+.bold{
+    font-weight: bold;
+}
+
+/*Menu balk*/
+#header   {
+    /*scrolled mee naar beneden en boven*/
+    position: fixed;
+    background-color: #FFFFFF;
+    height: 50px;
+    /*hele pagina breed*/
+    width:100%;
+    margin: 0;
+    padding: 0;
+    /*randje onderkant*/
+    border-bottom: 1px solid #D3D3D3;
+    /*weergave boven andere content*/
+    z-index:2;
+    /*geen gat tussen bovenkant*/
+    top: 0px;
+}
+
+/*Menu lijst*/
+#header ul      {
+    /*Centered via breedte*/
+    margin: 0 auto;
+    width:100%;
+    position: relative;
+    /*Geen list puntje*/
+    list-style-type: none;
+    padding: 0;
+    /*text centreren*/
+    text-align: center;
+}
+
+/*Lijst per item*/
+#header ul li   {
+    /*naast elkaar / block formaat*/
+    display: inline-block;
+    margin: 15px 10px 15px 0;
+    padding: 0 2px 0 2px;
+    font-family:Libre Baskerville;
+}
+
+/*link menu*/
+#header ul a {
+    color: #FF0052;
+    font-size: 18px;
+}
+
+/*Link menu bij hover*/
+#header ul a:hover {
+    opacity: 0.6;
+}
+
+/*hele site*/
+#wrapper     {
+    width: 70%;
+    margin: 0 auto;
+}
+/*inhoud tekst per pagina*/
+#content     {
+    position: relative;
+    width: 60%;
+    margin: 25px auto;
+    padding: 0px 0px 0px 0px;
+    bottom: 20px;
+    top:27px;
+    /*Paginaniveau 1, menu is 2 dus ligt boven content*/
+    z-index:1;
+    font-size: 18px;
+}
+
+/*Afbeelding content*/
+#content img{
+    /*Absolute positie zodat naast tekst terecht komt*/
+    position: absolute;
+    /*rechts van de pagina*/
+    right: 50px;
+}
+
+/*tijdlijn pagina*/
+#timeline {
+    /*scroll menu horizontaal*/
+    overflow-x: scroll;
+    background-color: #E6E7E2;
+    margin: 0 50px;
+}
+
+/*tijdlijn pagina*/
+#year {
+    position: relative;
+    width: 3460px;
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+}
+
+/*tijdlijn pagina, listitems in jaartijden*/
+#year li   {
+    display: inline-block;
+    margin-left: -4px;
+    margin-bottom: -25px;
+    padding: 6px;
+    width: 150px;
+    border-left: 1px solid #938172;
+    border-right: 1px solid #938172;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+/*tijdlijn pagina*/
+#games{
+    position: relative;
+    width: 3460px;
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+}
+
+/*listitems games*/
+#games li   {
+    display: inline-block;
+    margin-left: -4px;
+    padding: 6px;
+    background-color: #E6E7E2;
+    border-left: 1px solid #938172;
+    border-right: 1px solid #938172;
+    width: 150px;
+    height: 45px;
+    text-align: center;
+    /*tekst begint op dezelfde hoogte*/
+    overflow-y: hidden;
+}
+
+/*link games bij hover*/
+#games a:hover {
+    /*doorzichtigheid minder*/
+    opacity: 0.6;
+}
+
+#games a{
+    color: #FF0052;
+    font-weight:bold;
+}
+
+/*content tijdlijn*/
+#description {
+    margin-left: 50px; 
+    margin-right: 50px;
+}
+
+/*info bij tekst games*/
+#requirement{
+    position: relative;
+    /*rechts van de tekst*/
+    float: right;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 0px 0px 50px;
+}
+
+/*afbeelding bij tekst games*/
+#requirement img{
+    width: 250px;
+}
+
+/*link in de content*/
+#description a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #FF0052;
+}
+
+#description a:hover{
+    opacity: 0.5;
+}
+
+/*Algemene paragraaf settings*/
+p     {
+    font-family: helvetica, arial, sans-serif;
+    padding: 5px 0px 5px 0px;
+}
+
+/*algemene Header Niveau 1 settings*/
+h1 {
+    padding: 10px 0px 10px 0px;
+}
+
+/*header niveau 2 in content*/
+#content h2{
+    text-align: center;
+    margin: 50px 0;
+}
+
+/*opvullen voor ankers*/
+.fill{
+    /*hoogte gelijk aan menu*/
+    height: 35px;
+    position: relative;
+}
+
+/*content tijdlijn per game*/
+.hidden { 
+    display: block;
+    height: 100%;
+}
+
+#hl3     {
+    font-size: 5px;
+}
+
+/*menu footer*/
+#tijdlijn     {
+    height: 50px;
+    background-color: white;
+    position:fixed;
+    bottom:0px;
+    width:100%;
+    border-top: 1px solid #D3D3D3;
+}
+
+/*menu footer*/
+#jaartallen{
+    position: relative;
+    width: 100%;
+    list-style-type: none;
+    padding: 0px 0px 10px 0px;
+    margin: 20px;
+    text-align: center;
+    
+}
+
+/*menu items footer*/
+#jaartallen li   {
+    display: inline-block;
+    margin-left: -4px;
+    padding: 0px 6px 0px 0px;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+/*footer links bij hover*/
+#jaartallen a:hover {
+    opacity: 0.6;
+}
+
+/*footer links*/
+#jaartallen a{
+    color: #FF0052;
+}
+
+/*bottom klasse*/
+.bottom     {
+    padding-bottom: 100px;
+}
+
+/*klok afbeelding de hele breedte pakken*/
+#klok {
+    width:100%;
+}
+
+.hoger {
+    bottom: 100px;
+    position: relative;
+}
+
+/* @media Rule */
+@media all and (max-width: 1024px) {
+    
+    /*andere css zodra je minder dan 1024 px hebt*/
+    .hidden     {
+        height: 100%;
+    }
+    
+    #wrapper     {
+        width:100%;
+    }
+    
+    #jaartallen li   {
+    padding: 0px 2px 0px 0px;
+}
+    
+}

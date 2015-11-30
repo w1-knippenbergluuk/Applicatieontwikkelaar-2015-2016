@@ -13,22 +13,9 @@
                     </div>
 
                     <div class="ledenText">
-                        
                         <p>
-                            <span class="firstLetter">S</span>inds 1996 actief als beeldend kunstenaar. 
-                            
-                        </p>
-                        <p>
-                            Ruth van de Pol  volgde haar opleidingen te Den Bosch (LO Tekenen) en aan Hogeschool Gelderland (docent) te Nijmegen
+                            <span class="firstLetter">R</span>uth van de Pol  volgde haar opleidingen te Den Bosch (LO Tekenen) en aan Hogeschool Gelderland (docent) te Nijmegen
                              en studeerde in 1996  (autonoom) af aan de Academie voor Beeldende Kunsten te Tilburg.
-                        </p>
-                        <p>
-                            Sinds 1993 geeft zij les  bij de SAS te Schaijk ,in het verleden bij het Rollend Creatief te Megen
-                             en op dit moment op maandag-en vrijdagochtend in haar atelier.
-                        </p>
-                        <p>
-                            Vanaf  2003 organiseert ze lezingen in op het grensgebied van kunst en filosofie en verzorgt ze samen met Thom de Jong
-                              workshops teambuilding.
                         </p>
                         <!--
                         </p>
