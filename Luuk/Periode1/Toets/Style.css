@@ -1,0 +1,64 @@
+/*Achtergrond kleur zwart*/
+body    {
+    background-color: black;  
+}
+
+/*h3 centreren en witte tekstkleur geven*/
+h3  {
+    text-align: center;
+    color: white;
+}
+
+/*link decoratie verwijderen, witte kleur geven en aan iedere zijde 5px padding.*/
+a   {
+    text-decoration: none;
+    color: white;
+    padding: 5px 5px 5px 5px;
+}
+
+/*horizontaal gezet, tekst type veranderd, witte kleur gegeven, andere achtergrondkleur, 
+    orange soliede border aan de linker kant en aan de linker en rechter kant een margin gegeven van 10px(samen dus 20px)*/
+#menu ul li   {
+    display: inline;
+    font-family: Tahoma;
+    color: white;
+    background-color: #d40202;
+    border-left: 5px solid orange;
+    margin: 0px 10px 0px 10px;
+}
+
+/*zodra je op de "ul li" hovered word de border aan de linker zijde wit en wordt de tekst italic weergegeven*/
+#menu ul li:hover   {
+    border-left: 5px solid white;
+    font-style: italic;
+}
+
+/*De unordered list gecentreerd, de opsommingsbolletjes verwijderd, achtergrond kleur veranderd en een 5px puntjes border gegeven*/
+#menu ul  {
+    text-align: center;
+    list-style-type: none;
+    background-color: #a10000;
+    border: 5px dotted white;
+}
+
+/*Paragraaf tekstkleur veranderd*/
+p   {
+    color: #ffd800;
+}
+
+/*image gecentreerd en 500px breed gemaakt.*/
+img {
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+}
+
+/*"ul li" een andere tekstkleur gegeven*/
+ul li {
+    color: #ffd800;
+}
+
+/*de paragraaf met de id footerTekst de tekstkleur grijs gegeven*/
+#footerTekst    {
+    color: gray;
+}

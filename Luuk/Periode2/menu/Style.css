@@ -1,0 +1,33 @@
+/*borderspacing verwijderen*/
+table, table tr td   {
+    border-spacing: 0;
+}
+
+/*Table een border geven*/
+table   {
+    border: 3px solid black;
+}
+
+/*kleur en grootte*/
+.blue   {
+    background-color: blue;
+    width: 50px;
+    height: 5px;
+}
+
+/*kleur en grootte*/
+.streepRedTop   {
+    background-color: red;
+    width: 150px;
+}
+
+/*grootte*/
+.white  {
+    height: 5px;
+}
+
+/*kleur en grootte*/
+.red  {
+    height: 5px;
+    background-color: red;
+}

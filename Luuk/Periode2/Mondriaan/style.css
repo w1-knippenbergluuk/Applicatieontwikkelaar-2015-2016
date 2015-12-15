@@ -1,0 +1,32 @@
+/* grootte en kleur*/
+
+table	{
+	background-color: black;
+	width: 500px;
+	height: 500px;
+}
+
+/* kleur zwart*/
+.black	{
+	background-color: black;
+}
+
+/* kleur geel*/
+.yellow	{
+	background-color: yellow;
+}
+
+/* kleur rood*/
+.red	{
+	background-color: red;
+}
+
+/* kleur blauw*/
+.blue	{
+	background-color: blue;
+}
+
+/* kleur wit*/
+.white	{
+	background-color: white;
+}
