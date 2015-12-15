@@ -1,0 +1,777 @@
+html, body {
+margin:0;
+padding:0;
+
+}
+
+body    {
+    background-color: #5B3E50;
+    color: #5B3E50;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper    {
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    top: 75px;
+}
+
+#menu   {
+    background-color: white;
+    height: 75px;
+    width: 60%;
+    position: fixed;
+    left: 20%;
+    z-index: 2;
+    display: inline-block;
+}
+
+
+
+#menu ul    {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    bottom: 120px;
+    right: 29px;
+}
+
+
+
+#menu ul li {
+    display: inline;
+    margin: 10px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    
+}
+
+#menu ul li a:hover {
+    opacity: 1;
+    
+}
+
+#menu ul li a {
+    text-decoration: none;   
+    color: #5B3E50; 
+    font-size: 25px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    opacity: 0.8;
+}
+
+#logo   {
+    left: 5%;
+    position: relative;
+    width: 100px;
+    height: 75px;
+    overflow: hidden;
+}
+
+#logo a {
+    width: 100px;
+    height: 75px;
+    position: relative;
+    z-index: 99999;
+}
+
+#logo img  {
+    width: 100px;
+    height: 75px;
+    z-index: 99998;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+#logo img:hover {
+    opacity: 0.8;
+}
+
+#socialMedia    {
+    position: relative;
+    height: 29px;
+    margin: 20px;
+    left: 85%;
+    bottom: 75px;
+}
+
+#socialMedia a  {
+    z-index: 99999;
+}
+
+#socialMedia img   {
+    width: 29px;
+    position: relative;
+    z-index: 99998;
+}
+
+#socialMedia img:hover   {
+    opacity: 0.8;
+    
+}
+
+
+#header {
+    
+}
+
+#header img {
+    width: 100%;
+}
+
+#content    {
+    background-color: white;
+    height: 100%;
+    color: #5B3E50;
+    text-align: left;
+    font-size: 16px;
+    padding: 50px 150px 50px 150px;
+}
+
+#leden  {
+    width: 100%;
+    position: relative;
+    height: 200px;
+    padding: 0px 0px 0px 0px;
+    display: inline-block;
+}
+
+.lid   {
+    border-radius: 50%;
+    background-color: white;
+    width: 175px;
+    height: 175px;
+    position: relative;
+    display: inline-block;
+    padding:  0px 10px 0px 10px;
+}
+
+.lid img    {
+    border-radius: 50%;
+    background-color: white;
+    width: 175px;
+    height: 175px;
+    position: relative;
+}
+
+.lid img:hover    {
+    opacity: 0.8;
+}
+
+h1  {
+    color: #5B3E50;
+    font-family: "Tahoma";
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+.bold   {
+    font-weight: bold;
+}
+
+#footer {
+    background-color: white;
+    height: 25px;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    padding:  0;
+    margin: 0;
+    text-align: center;
+}
+
+#footer p   {
+    opacity: 0.6;
+    margin: 0px 0px 0px 0px;
+}
+
+.lidTest  {
+    width: 100%;
+    position: relative;
+    height: 100%;
+    padding: 0px 0px 45px 0px;
+    display: inline-block;
+    /*border-bottom: 1px solid #5B3E50;*/
+}
+
+.lidTest img  {
+    border-radius: 50%;
+    position: relative;
+    height: 175px;
+    width: 175px;
+    padding: 0px 0px 0px 0px;
+    display: inline-block;
+    top: 50%;
+}
+
+.ledenImage {
+    width: 175px;
+    position: relative;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    
+}
+
+.ledenImage:hover {
+    opacity: 0.8;
+    
+}
+
+.ledenImage a {
+    text-decoration: none;
+    color: #5B3E50;
+}
+
+.ledenText  {
+    width: 60%;
+    height: 100%;
+    position: relative;
+    display: inline-block;
+    float: left;
+    padding: 0px 0px 0px 30px;
+    margin: 0px 0px 50px 0px;
+}
+
+
+.firstLetter    {
+   font-weight: bold; 
+   font-size: 40px;
+}
+
+h1  {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+h3  {
+    text-align: center;
+}
+
+.boldLid   {
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+#images img {
+    width: 24%;
+    height: 24%;
+}
+
+#images img:hover {
+    opacity: 0.6;
+}
+
+.ledenText p {
+        width: 120%
+    }
+
+
+
+
+@media (min-width: 481px) and  and (max-width: 1280px) {
+    body    {
+        background-color: white;
+    }
+    
+    #wrapper {
+        width: 100%;
+    }
+    
+    #menu ul {
+        width: 100%;
+    }
+
+    #ledenImage {
+        text-align: center;
+        margin: 0 auto;
+        float: center;
+    }
+ 
+    #ledenText {
+        text-align: center;
+        margin: 0 auto;
+        float: center;
+        width: 100%;
+    }
+    
+    .ledenText p {
+        width: 80%
+    }
+    
+
+    #content    {
+    padding: 15px 15px 15px 15px;
+}
+
+    #content p   {
+    padding: 15px 15px 15px 15px;
+}
+
+    #menu {
+        width: 100%;
+        left: 0%;
+    }   
+
+    .lidtest    {
+        left: 10%;
+    }
+
+    #images img {
+        width: 49%;
+        height: 49%;
+    }
+}
+
+
+/* For smartphones */
+@media (max-width: 480px) {
+      body    {
+        background-color: white;
+        width: 100%;
+    }
+    
+    #wrapper {
+        width: 100%;
+    }
+
+    #menu {
+            width: 100%;
+            left: 0%;
+        
+        }
+
+    .ledenText p {
+        width: 80%
+    }
+
+
+    #menu ul {
+        width: 100%;
+        /*right: 25px;*/
+        
+    }
+
+    menu ul li {
+        padding: 10px 0px 0px 0px 0px;
+    }
+
+    #menu ul li a {
+        font-size: 18px;
+    }
+    
+   
+
+    #socialMedia    {
+    position: relative;
+    height: 29px;
+    margin: 20px;
+    left: 85%;
+    visibility: hidden;
+}
+
+    #logo   {
+    visibility: hidden;
+}
+
+    #socialMedia img   {
+        width: 15px;
+        position: relative;
+        z-index: 99998;
+    }
+
+    #socialMedia a  {
+        z-index: 99999;
+    }
+
+    #ledenText  {
+        width: 100%;
+        float: none;
+    }
+
+    #ledenImage  {
+        width: 100%;
+        float: none;
+        left: 20%;
+    }
+
+    .lidTest  {
+        width: 100%;
+        
+    }
+
+    #content    {
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+    }
+
+     #content p   {
+    padding: 0px 15px 0px 15px;
+}
+
+        #header {
+        width: 100%;
+    }
+
+    #images img {
+        width: 49%;
+        height: 49%;
+    }
+
+    #contact_form   {
+        padding: 0px 15px 0px 15px;
+    }
+
+}
+
+/* For tablets & smart phones */
+    @media (max-width: 767px) {
+      
+        body    {
+        background-color: white;
+        width: 100%;
+    }
+    
+    #contact_form   {
+        padding: 0px 15px 0px 15px;
+    }
+    
+    #wrapper {
+        width: 100%;
+    }
+
+    .ledenText p {
+        width: 80%
+    }
+    
+    #menu {
+            width: 100%;
+            left: 0%;
+        
+        }
+
+    #menu ul {
+        width: 100%;
+        /*right: 25px;*/
+        bottom: 100px;
+    }
+
+    menu ul li {
+        padding: 10px 0px 0px 0px 0px;
+    }
+
+    #menu ul li a {
+        font-size: 18px;
+    }
+    
+   
+
+    #socialMedia    {
+    position: relative;
+    height: 10px;
+    margin: 20px;
+    left: 85%;
+}
+
+    #socialMedia a  {
+        z-index: 99999;
+    }
+    
+    #socialMedia img   {
+        width: 15px;
+        position: relative;
+        z-index: 99998;
+    }
+
+    .ledenText  {
+        width: 90%;
+        float: none;
+    }
+
+    .ledenImage  {
+        width: 100%;
+        float: none;
+        
+    }
+
+    .lidTest  {
+        width: 100%;
+        
+    }
+
+    #content    {
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+    }
+    
+    #content p   {
+    padding: 0px 15px 0px 15px;
+}
+    
+        #header {
+        width: 100%;
+    }
+        
+    #images img {
+        width: 49%;
+        height: 49%;
+    }
+    
+}
+
+/* For smaller displays like laptops */
+@media (min-width: 768px) and (max-width: 979px) {
+    body {
+        background-color: white;
+        width: 100%;
+    }
+
+    #wrapper {
+        width: 100%;
+    }
+
+    #contact_form   {
+        padding: 0px 15px 0px 15px;
+    }
+
+    #menu {
+        width: 100%;
+        left: 0%;
+    }
+
+    .ledenText p {
+        width: 100%
+    }
+
+    #menu ul {
+        width: 100%;
+        /*right: 25px;*/
+    }
+
+    menu ul li {
+        padding: 10px 0px 0px 0px 0px;
+    }
+
+    #menu ul li a {
+        font-size: 18px;
+    }
+
+
+
+    #socialMedia {
+        position: relative;
+        height: 29px;
+        margin: 20px;
+        left: 85%;
+    }
+
+    #socialMedia a  {
+    
+     z-index: 99999;
+}
+
+    #socialMedia img {
+        width: 15px;
+        position: relative;
+        z-index: 99998;
+    }
+
+    #ledenText {
+        width: 100%;
+        float: none;
+    }
+
+    #ledenImage {
+        width: 100%;
+        float: none;
+    }
+
+    .lidTest {
+        width: 100%;
+        left: 10%;
+    }
+
+    #content {
+        width: 100%;
+        padding: 0px 0px 0px 0px;
+    }
+
+    #content p   {
+    padding: 0px 15px 0px 15px;
+}
+
+    #header {
+        width: 100%;
+    }
+
+    #images img {
+        width: 49%;
+        height: 49%;
+    }
+
+}
+
+        
+    @media (min-width: 1200px) {
+      
+     
+    
+}
+    
+
+
+
+
+
+/*Slideshow css
+
+#slides {
+      display: none
+    }
+
+    #slides .slidesjs-navigation {
+      margin-top:5px;
+    }
+
+    a.slidesjs-next,
+    a.slidesjs-previous,
+    a.slidesjs-play,
+    a.slidesjs-stop {
+      background-image: url(img/btns-next-prev.png);
+      background-repeat: no-repeat;
+      display:block;
+      width:12px;
+      height:18px;
+      overflow: hidden;
+      text-indent: -9999px;
+      float: left;
+      margin-right:5px;
+    }
+
+    a.slidesjs-next {
+      margin-right:10px;
+      background-position: -12px 0;
+    }
+
+    a:hover.slidesjs-next {
+      background-position: -12px -18px;
+    }
+
+    a.slidesjs-previous {
+      background-position: 0 0;
+    }
+
+    a:hover.slidesjs-previous {
+      background-position: 0 -18px;
+    }
+
+    a.slidesjs-play {
+      width:15px;
+      background-position: -25px 0;
+    }
+
+    a:hover.slidesjs-play {
+      background-position: -25px -18px;
+    }
+
+    a.slidesjs-stop {
+      width:18px;
+      background-position: -41px 0;
+    }
+
+    a:hover.slidesjs-stop {
+      background-position: -41px -18px;
+    }
+
+    .slidesjs-pagination {
+      margin: 7px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(img/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+
+  /* End SlidesJS Optional*/
+
+  /* SlidesJS Required: These styles are required if you'd like a responsive slideshow 
+
+    #slides {
+      display: none
+    }
+
+    .container {
+      margin: 0 auto
+    }
+
+    /* For tablets & smart phones 
+    @media (max-width: 767px) {
+      body {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .container {
+        width: auto;
+      }
+    }
+
+    /* For smartphones 
+    @media (max-width: 480px) {
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smaller displays like laptops 
+    @media (min-width: 768px) and (max-width: 979px) {
+      .container {
+        width: 724px
+      }
+    }
+
+    /* For larger displays 
+    @media (min-width: 1200px) {
+      .container {
+        width: 100%;
+        height: 300px;
+      }
+    }
+    */
