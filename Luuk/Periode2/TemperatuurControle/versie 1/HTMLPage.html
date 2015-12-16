@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <link href="style.css" rel="stylesheet">
+        <script src="JavaScript.js"></script>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>
+                    voer de waarde in:
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="number" id="graden" name="graden"> graden
+                </td>
+                <td>
+                    <select name="graadsoortDetect" id="graadsoortDetect" form="carform">
+                        <option value="celsius">Celsius</option>
+                        <option value="fahrenheit">Fahrenheit</option>
+                        <option value="kelvin">Kelvin</option>
+                        <option value="rankine">Rankine</option>
+                    </select>
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    Omzetten naar:
+                </td>                </tr>            <tr>
+                <td>
+                    <select name="graadsoortOmzet" id="graadsoortOmzet" form="carform">
+                        <option value="celsius">Celsius</option>
+                        <option value="fahrenheit">Fahrenheit</option>
+                        <option value="kelvin">Kelvin</option>
+                        <option value="rankine">rankine</option>
+                    </select>   
+                    <button type="button" onclick="validateInput()">Omzetten</button>
+                </td>   
+            </tr>
+        </table>
+        <div id="resultaat"></div>
+    </body>
+</html>

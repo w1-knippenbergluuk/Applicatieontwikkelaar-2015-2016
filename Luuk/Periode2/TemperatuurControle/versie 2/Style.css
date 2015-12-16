@@ -1,0 +1,20 @@
+.vlak   {
+    width: 700px;
+    height: 200px;
+    text-align: center;
+    background-color: orange;
+    margin: 20px auto;
+}
+
+.vlak  h1 {
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+    position: relative;
+    top: 75px;
+}
+
+#resultaat  {
+    text-align: center;
+}
