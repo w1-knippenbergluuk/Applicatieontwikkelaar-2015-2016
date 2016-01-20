@@ -1,0 +1,45 @@
+body   {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper    {
+    height: 100%;
+    width: 1190px;
+    margin: 0 auto;
+}
+
+#header {
+    height: 100px;
+    background-color: #FF6334;
+}
+
+#menu   {
+    height: 50px;
+    background-color: #FACE30;
+}
+
+#contentwrapper {
+    width: 1190px;
+    height: 100px;
+    display: inline-flex;
+}
+
+#sidebar    {
+    background-color: #D32DFF;
+    
+    width: 250px;
+    position: relative;
+    height: 800px;
+}
+
+#content    {
+    background-color: #EDFBFE;
+    width: 940px;
+    position: relative;
+    height: 800px;
+}
+
+#footer {
+    background-color: #32FF66;
+}

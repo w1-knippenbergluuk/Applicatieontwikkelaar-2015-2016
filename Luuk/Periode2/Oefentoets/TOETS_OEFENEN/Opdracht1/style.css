@@ -1,0 +1,55 @@
+body    {
+    margin: 0;
+    padding: 0;
+}
+
+#dobbelsteen    {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 20px;
+    margin: -100px 0px 0px -100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+#dobbelsteen:hover  {
+    background-color: black;
+}
+
+.tussenlaag {
+    height: 20px;
+}
+
+.hoofdlaag {
+    height: 40px;
+}
+
+.circleLeft {
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    float: left;
+    left: 20px;
+    position: relative;
+}
+
+.circleRight {
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    float: right;
+    right: 20px;
+    position: relative;
+}
+
+.circleMiddle{
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
