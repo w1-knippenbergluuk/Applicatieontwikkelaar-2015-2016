@@ -1,0 +1,85 @@
+body    {
+    padding: 0;
+    margin: 0;    background-image: url(../images/broodBW2.jpg);
+    background-attachment: fixed;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #7C9890;
+}#menu   {
+    position: fixed;
+    width: 70%;
+    height: 50px;
+    background-color: #E7E3C1;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 9999;
+    left: 15%;
+    border-bottom: 1px solid #7C9890;
+}
+
+#menu ul  {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    width: 50%;
+    bottom: 20px;
+}
+
+#menu ul li  {
+    display: inline-block;
+    margin: 0px 35px 0px 50px; 
+    text-align: center;
+    position: relative;
+    color: #7C9890;
+    font-weight: 500;
+}#menu ul li a {
+    text-decoration: none;
+    color: #7C9890;
+}#menu ul li a:hover {
+    opacity: 0.6;
+}#menu img   {
+    height: 50px;
+    left: 30px;
+    position: relative;
+    
+}#menu img:hover   {
+    opacity: 0.6;
+    
+}#header {
+    height: 400px;
+    width: 70%;
+    background-color: ;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    top: 50px;
+}
+
+#header img {
+    position: relative;
+    top: 125px;
+}
+
+#contentWrapper    {
+    height: 800px;
+    width: 70%;
+    background-color: #E7E3C1;
+    margin: 0 auto;
+    position: relative;
+    
+    top: 50px;
+}
+
+#content    {
+    width: 60%;
+    
+    margin: 0 auto;
+    
+}
+
+#content p  {
+    padding: 10px 0px 10px 0px;
+    margin: 0px;
+    top: 25px;
+    position: relative;
+}
