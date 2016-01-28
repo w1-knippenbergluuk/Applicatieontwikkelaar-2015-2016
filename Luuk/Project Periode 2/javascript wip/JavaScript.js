@@ -42,12 +42,11 @@ function change() {
 
     // totaalkosten Meel bereken
     var $resultaatMeel = +$meel1 + +$meel2 + +$meel5 + +$meel10 + +$meel25;
-    var $omzetBTW = $resultaatMeel * 1.06;
-    var $resultaatMeelBTW =$omzetBTW.toFixed(2);
+    var $omzetBTW = ($resultaatMeel * 1.06).toFixed(2);
 
     // resultaat suiker printen
     var res = document.getElementById('resultaatMeel');
-    res.innerHTML = 'De kosten van de meelproducten zonder btw = &euro;' + $resultaatMeel + '<br /> inclusief BTW = &euro;' + $resultaatMeelBTW;
+    res.innerHTML = 'De kosten van de meelproducten zonder btw = &euro;' + $resultaatMeel + '<br /> inclusief BTW = &euro;' + $omzetBTW;
 
     
     // aanmaken variablen gist met kosten
@@ -59,11 +58,10 @@ function change() {
 
      // totaalkosten Meel bereken
     var $resultaatGist = +$gist1 + +$gist2 + +$gist3 + +$gist4 + +$gist5;
-    var $omzetBTW = $resultaatGist * 1.06;
-    var $resultaatGistBTW =$omzetBTW.toFixed(2);
+    var $omzetBTW = ($resultaatGist * 1.06).toFixed(2);
 
     // resultaat gist printen
-    var res = document.getElementById('resultaatGist').innerHTML = 'De kosten van de meelproducten zonder btw = &euro;' + $resultaatGist + '<br /> inclusief BTW = &euro;' + $resultaatGistBTW;
+    var res = document.getElementById('resultaatGist').innerHTML = 'De kosten van de meelproducten zonder btw = &euro;' + $resultaatGist + '<br /> inclusief BTW = &euro;' + $omzetBTW;
 
      // aanmaken variablen suiker met kosten
     var $suiker1 = document.getElementById('suiker1').value * 1;
@@ -74,11 +72,10 @@ function change() {
 
      // totaalkosten suiker bereken
     var $resultaatSuiker = +$suiker1 + +$suiker2 + +$suiker3 + +$suiker4 + +$suiker5;
-    var $omzetBTW = $resultaatSuiker * 1.06;
-    var $resultaatSuikerBTW =$omzetBTW.toFixed(2);
+    var $omzetBTW = ($resultaatSuiker * 1.06).toFixed(2);
 
     // resultaat suiker printen
-    var res = document.getElementById('resultaatSuiker').innerHTML = 'De kosten van de meelproducten zonder btw = &euro;' + $resultaatSuiker + '<br /> inclusief BTW = &euro;' + $resultaatSuikerBTW;
+    var res = document.getElementById('resultaatSuiker').innerHTML = 'De kosten van de meelproducten zonder btw = &euro;' + $resultaatSuiker + '<br /> inclusief BTW = &euro;' + $omzetBTW;
 
     // aanmaken variablen bakblikken met kosten
     var $bakblik1 = document.getElementById('bakblik1').value * 1;
@@ -96,11 +93,10 @@ function change() {
 
      // totaalkosten bakblikken bereken
     var $resultaatBakblik = +$bakblik1 + +$bakblik2 + +$bakblik3 + +$bakblik4 + +$bakblik5 +$bakblik6 +$bakblik7 +$bakblik8 +$bakblik9 +$bakblik10 +$bakblik11 +$bakblik12 ;
-    var $omzetBTW = $resultaatBakblik * 1.06;
-    var $resultaatbakblikBTW =$omzetBTW.toFixed(2);
+    var $omzetBTW = ($resultaatBakblik * 1.06).toFixed(2);
     
     // resultaat bakblikken printen
-    var res = document.getElementById('resultaatBakblik').innerHTML = 'De kosten van de meelproducten zonder btw = &euro;' + $resultaatBakblik + '<br /> inclusief BTW = &euro;' + $resultaatbakblikBTW;
+    var res = document.getElementById('resultaatBakblik').innerHTML = 'De kosten van de meelproducten zonder btw = &euro;' + $resultaatBakblik + '<br /> inclusief BTW = &euro;' + $omzetBTW;
 
     // aanmaken variablen springvormen met kosten
     var $spring1 = document.getElementById('spring1').value * 5;
@@ -114,11 +110,10 @@ function change() {
    
      // totaalkosten springvormen bereken
     var $resultaatSpring = +$spring1 + +$spring2 + +$spring3 + +$spring4 + +$spring5 +$spring6 +$spring7 +$spring8;
-    var $omzetBTW = $resultaatSpring * 1.06;
-    var $resultaatSpringBTW =$omzetBTW.toFixed(2);
+    var $omzetBTW = ($resultaatSpring * 1.06).toFixed(2);
 
     // resultaat springvormen printen
-    var res = document.getElementById('resultaatSpring').innerHTML = 'De kosten van de meelproducten zonder btw = &euro;' + $resultaatSpring + '<br /> inclusief BTW = &euro;' + $resultaatSpringBTW;
+    var res = document.getElementById('resultaatSpring').innerHTML = 'De kosten van de meelproducten zonder btw = &euro;' + $resultaatSpring + '<br /> inclusief BTW = &euro;' + $omzetBTW;
 
     // aanmaken variablen bakblikken met kosten
     var $doosblik1 = document.getElementById('doosblik1').value * 3;
@@ -136,9 +131,25 @@ function change() {
 
      // totaalkosten bakblikken bereken
     var $resultaatDoosblik = +$doosblik1 + +$doosblik2 + +$doosblik3 + +$doosblik4 + +$doosblik5 +$doosblik6 +$doosblik7 +$doosblik8 +$doosblik9 +$doosblik10 +$doosblik11 +$doosblik12 ;
-    var $omzetBTW = $resultaatDoosblik * 1.06;
-    var $resultaatDoosblikBTW =$omzetBTW.toFixed(2);
+    var $omzetBTW = ($resultaatDoosblik * 1.06).toFixed(2);
     
     // resultaat bakblikken printen
-    var res = document.getElementById('resultaatDoosblik').innerHTML = 'De kosten van de meelproducten zonder btw = &euro;' + $resultaatDoosblik + '<br /> inclusief BTW = &euro;' + $resultaatDoosblikBTW;
+    var res = document.getElementById('resultaatDoosblik').innerHTML = 'De kosten van de meelproducten zonder btw = &euro;' + $resultaatDoosblik + '<br /> inclusief BTW = &euro;' + $omzetBTW;
+
+    // aanmaken variablen bakblikken met kosten
+    var $springdoos1 = document.getElementById('springdoos1').value * 3;
+    var $springdoos2 = document.getElementById('springdoos2').value * 6;
+    var $springdoos3 = document.getElementById('springdoos3').value * 12;
+    var $springdoos4 = document.getElementById('springdoos4').value * 15;
+    var $springdoos5 = document.getElementById('springdoos5').value * 18;
+    var $springdoos6 = document.getElementById('springdoos6').value * 21;
+    var $springdoos7 = document.getElementById('springdoos7').value * 24;
+    var $springdoos8 = document.getElementById('springdoos8').value * 27;
+
+    // totaalkosten bakblikken bereken
+    var $resultaatSpringdoos = +$springdoos1 + +$springdoos2 + +$springdoos3 + +$springdoos4 + +$springdoos5 +$springdoos6 +$springdoos7 +$springdoos8;
+    var $omzetBTW = ($resultaatSpringdoos * 1.06).toFixed(2);
+
+    // resultaat bakblikken printen
+    var res = document.getElementById('resultaatSpringdoos').innerHTML = 'De kosten van de meelproducten zonder btw = &euro;' + $resultaatSpringdoos + '<br /> inclusief BTW = &euro;' + $omzetBTW;
 }
