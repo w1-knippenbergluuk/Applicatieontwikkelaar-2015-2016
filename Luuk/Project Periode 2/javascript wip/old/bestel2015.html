@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bestellen</title>
+	<link href="css/style.css" rel="stylesheet">
+	<script src="js/javascript.js" type="text/javascript"></script>
+</head>
+	<body>
+		<div id="content">
+			<div id="helepagina">
+				<div id="logos">
+					<div id="logo1">
+						<img src="images/Parotta2.png" alt="parrota2"/>
+					</div>
+					<div id="logo">
+						<img src="images/Parotta4.png" alt="parrota4"/>
+					</div>
+				</div>
+				<div id="menu">  
+					<ul>  
+						<li><a href="index.html" title="Home">Home</a></li>  
+						<li><a href="producten.html" title="Over ons">Producten</a></li>  
+						<li><a href="bestel.html" title="Bestellen">Bestellen</a></li>  
+						<li><a href="sitemap.html" title="sitemap">sitemap</a></li>
+						<li><a href="contact.html" title="Contact">Contact</a></li>  
+					</ul>  
+				</div> 
+				<div id="text2">
+					<h3>
+						Hier kun je bestellen met het formulier onderaan de pagina.
+					</h3>
+				</div>
+				<div id="Bestelformulier">
+					<form>
+						<label >Persoonlijke gegevens : &nbsp;</label><br />
+						<table border="0" width="520px">
+							<tr>
+								<td>
+									<label for="voornaam">Voornaam: &nbsp;</label><br />
+								</td>
+								<td>
+									<input autocomplete="off" type="text" id="voornaam" name="voornaam" value="">* <br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="achternaam">Achternaam: &nbsp;</label><br />
+									<label for="achternaam">Achternaam: &nbsp;</label><br />
+								</td>
+								<td>
+									<input type="text" id="achternaam" name="achternaam" value="">*<br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="geboortedatum">Geboortedatum: &nbsp;</label><br />
+								</td>
+								<td>
+									<input type="text" id="geboortedatum" name="geboortedatum" value="">*<br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="email">E-mail adres: &nbsp;</label><br />
+								</td>
+								<td>
+									<input type="text" id="email" name="email" value="">*<br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="iban">IBAN: &nbsp;</label><br />
+								</td>
+								<td>
+									<input type="text" id="iban" name="iban" value="">*<br />
+								</td>
+							</tr>
+						<table>
+					</form>
+					<br>
+					<form>
+					  <label >Adres gegevens : &nbsp;</label><br />
+						<table border="0" width="606px">
+							<tr>
+								<td>
+									<label for="straat">Straat: &nbsp;</label><br />
+								</td>
+								<td>
+									<input type="text" id="straat" name="straat" value="">*<br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="postcode">Postcode: &nbsp;</label><br />
+								</td>
+								<td>
+									<input type="text" id="postcode" name="postcode" value="">*<br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="woonplaats">Woonplaats: &nbsp;</label><br />
+								</td>
+								<td>
+									<input type="text" id="woonplaats" name="woonplaats" value="">*<br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<label for="provincie">Provincie: &nbsp;</label><br />
+								</td>
+								<td>
+									<input type="text" id="provincie" name="provincie" value="">*<br />
+								</td>
+							</tr>
+						</table>		
+					</form>
+					<hr>
+					
+					
+					<br />
+					Bestelinformatie: <br />
+					<form>
+						<!-- aanmaken meel invoervelden-->
+					  <label >Meel Producten (6% BTW) &nbsp;</label><br />
+						<table border="0" width="400px">
+							<tr>
+								<td>
+									<input  autocomplete="off" placeholder="Getallen" type="text" id="meel1" name="meel1" value=""><br />
+								</td>
+								<td>
+									<label for="meel1">1 kilogram &euro;5. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="meel2" name="meel2" value=""><br />
+								</td>
+								<td>
+									<label for="meel2">2,5 kilogram &euro;10. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="meel3" name="meel3" value=""><br />
+								</td>
+								<td>
+									<label for="meel3">5 kilogram &euro;15. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="meel4" name="meel4" value=""><br />
+								</td>
+								<td>
+									<label for="meel4">10 kilogram &euro;20. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="meel5" name="meel5" value=""><br />
+								</td>
+								<td>
+									<label for="meel5">25 kilogram &euro;25. &nbsp;</label><br />
+								</td>
+							</tr>
+						</table>	
+						<!-- einde meel invoervelden-->
+						<!-- aanmaken gist invoervelden-->
+					  <label >Gist Producten (6% BTW) &nbsp;</label><br />
+						<table border="0" width="400px">
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="gist1" name="gist1" value=""><br />
+								</td>
+								<td>
+									<label for="gist1">bakkers gist &euro;5. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="gist2" name="gist2" value=""><br />
+								</td>
+								<td>
+									<label for="gist2">biergist &euro;10. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="gist3" name="gist3" value=""><br />
+								</td>
+								<td>
+									<label for="gist3">verse gist &euro;15. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="gist4" name="gist4" value=""><br />
+								</td>
+								<td>
+									<label for="gist4"> gedroogde gist 7 gram &euro;20. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="gist5" name="gist5" value=""><br />
+								</td>
+								<td>
+									<label for="gist5">instant gist 500 gram &euro;25. &nbsp;</label><br />
+								</td>
+							</tr>
+						</table>	
+						<!-- einde gist invoervelden-->
+						<!-- aanmaken zoetwaren invoervelden-->
+						<label >zoetwaren (6% BTW) &nbsp;</label><br />
+						<table border="0" width="400px">
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="zoet1" name="zoet1" value=""><br />
+								</td>
+								<td>
+									<label for="zoet1">Suiker 1 kilogram &euro;5. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="zoet2" name="zoet2" value=""><br />
+								</td>
+								<td>
+									<label for="zoet2">Suiker 2,5 kilogram &euro;10. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="zoet3" name="zoet3" value=""><br />
+								</td>
+								<td>
+									<label for="zoet3">Suiker 5 kilogram &euro;15. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="zoet4" name="zoet4" value=""><br />
+								</td>
+								<td>
+									<label for="zoet4">Suiker 10 kilogram &euro;20. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="zoet5" name="zoet5" value=""><br />
+								</td>
+								<td>
+									<label for="zoet5">Suiker 25 kilogram &euro;25. &nbsp;</label><br />
+								</td>
+							</tr>
+						</table>	
+						<!-- einde zoetwaren invoervelden-->
+						
+						<!-- aanmaken bakmiddelen invoervelden-->
+						<label >Bakmiddelen (21% BTW)&nbsp;</label><br />
+						<table border="0" width="500px">
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="bak1" name="bak1" value=""><br />
+								</td>
+								<td>
+									<label for="bak1">breedte 5cm x lengte 10cm x hoogte 5cm &euro;5. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="bak2" name="bak2" value=""><br />
+								</td>
+								<td>
+									<label for="bak2">breedte 5cm x lengte 20cm x hoogte 5cm &euro;10. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="bak3" name="bak3" value=""><br />
+								</td>
+								<td>
+									<label for="bak3">breedte 5cm x lengte 25cm x hoogte 5cm &euro;15. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="bak4" name="bak4" value=""><br />
+								</td>
+								<td>
+									<label for="bak4">breedte 6cm x lengte 10cm x hoogte 5cm &euro;20. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="bak5" name="bak5" value=""><br />
+								</td>
+								<td>
+									<label for="bak5">breedte 6cm x lengte 20cm x hoogte 5cm &euro;25. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="bak6" name="bak6" value=""><br />
+								</td>
+								<td>
+									<label for="bak6">breedte 6cm x lengte 25cm x hoogte 5cm &euro;30. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="bak7" name="bak7" value=""><br />
+								</td>
+								<td>
+									<label for="bak7">breedte 5cm x lengte 10cm x hoogte 6cm &euro;35. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="bak8" name="bak8" value=""><br />
+								</td>
+								<td>
+									<label for="bak8">breedte 5cm x lengte 20cm x hoogte 6cm &euro;40. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="bak9" name="bak9" value=""><br />
+								</td>
+								<td>
+									<label for="bak9">breedte 5cm x lengte 25cm x hoogte 6cm &euro;45. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="bak10" name="bak10" value=""><br />
+								</td>
+								<td>
+									<label for="bak10">breedte 6cm x lengte 10cm x hoogte 6cm &euro;50. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="bak11" name="bak11 " value=""><br />
+								</td>
+								<td>
+									<label for="bak11">breedte 6cm x lengte 20cm x hoogte 6cm &euro;55. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="bak12" name="bak12" value=""><br />
+								</td>
+								<td>
+									<label for="bak12">breedte 6cm x lengte 25cm x hoogte 6cm &euro;60. &nbsp;</label><br />
+								</td>
+							</tr>
+						</table>	
+						<!-- einde bakmiddelen invoervelden-->
+						<!-- aanmaken springvormen invoervelden-->
+					  <label >Springvormen (21% BTW)&nbsp;</label><br />
+						<table border="0" width="400px">
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="spring1" name="spring1" value=""><br />
+								</td>
+								<td>
+									<label for="spring1">diameter 10cm x hoogte 5cm &euro;5. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="spring2" name="spring2" value=""><br />
+								</td>
+								<td>
+									<label for="spring2">diameter 20cm x hoogte 5cm &euro;10. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="spring3" name="spring3" value=""><br />
+								</td>
+								<td>
+									<label for="spring3"> diameter 25cm x hoogte 5cm &euro;15. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="spring4" name="spring4" value=""><br />
+								</td>
+								<td>
+									<label for="spring4">diameter 30cm x hoogte 5cm &euro;20. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="spring5" name="spring5" value=""><br />
+								</td>
+								<td>
+									<label for="spring5">diameter 10cm x hoogte 6cm &euro;25. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="spring6" name="spring6" value=""><br />
+								</td>
+								<td>
+									<label for="spring6">diameter 20cm x hoogte 6cm &euro;30. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="spring7" name="spring7" value=""><br />
+								</td>
+								<td>
+									<label for="spring7">diameter 25cm x hoogte 6cm &euro;35. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="spring8" name="spring8" value=""><br />
+								</td>
+								<td>
+									<label for="spring8">diameter 30cm x hoogte 6cm &euro;40. &nbsp;</label><br />
+								</td>
+							</tr>
+						</table>
+						<!-- einde springvomen invoervelden-->
+						
+						<!-- aanmaken verpakkingsmiddelen invoervelden-->
+						<label >Verpakkingsmiddelen (21% BTW)&nbsp;</label><br />
+						<table border="0" width="400px">
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="verpak1" name="verpak1" value=""><br />
+								</td>
+								<td>
+									<label for="verpak1">Voor eetproduct uit bakblik (breedte 5cm x lengte 10cm x hoogte 5cm) &euro;5. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="verpak2" name="verpak2" value=""><br />
+								</td>
+								<td>
+									<label for="verpak2"> Voor eetproduct uit bakblik (breedte 5cm x lengte 20cm x hoogte 5cm) &euro;10. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="verpak3" name="verpak3" value=""><br />
+								</td>
+								<td>
+									<label for="verpak3">  Voor eetproduct uit bakblik (breedte 5cm x lengte 25cm x hoogte 5cm) &euro;15. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="verpak4" name="verpak4" value=""><br />
+								</td>
+								<td>
+									<label for="verpak4"> Voor eetproduct uit bakblik (breedte 6cm x lengte 10cm x hoogte 5cm) &euro;20. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="verpak5" name="verpak5" value=""><br />
+								</td>
+								<td>
+									<label for="verpak5">Voor eetproduct uit bakblik (breedte 6cm x lengte 20cm x hoogte 5cm) &euro;25. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="verpak6" name="verpak6" value=""><br />
+								</td>
+								<td>
+									<label for="verpak6">Voor eetproduct uit bakblik (breedte 6cm x lengte 25cm x hoogte 5cm) &euro;30. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="verpak7" name="verpak7" value=""><br />
+								</td>
+								<td>
+									<label for="verpak7">Voor eetproduct uit bakblik (breedte 5cm x lengte 10cm x hoogte 6cm) &euro;35. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="verpak8" name="verpak8" value=""><br />
+								</td>
+								<td>
+									<label for="verpak8">Voor eetproduct uit bakblik (breedte 5cm x lengte 20cm x hoogte 6cm) &euro;40. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="verpak9" name="verpak9" value=""><br />
+								</td>
+								<td>
+									<label for="verpak9">Voor eetproduct uit bakblik (breedte 5cm x lengte 25cm x hoogte 6cm) &euro;45. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="verpak10" name="verpak10" value=""><br />
+								</td>
+								<td>
+									<label for="verpak10">Voor eetproduct uit bakblik (breedte 6cm x lengte 10cm x hoogte 6cm) &euro;50. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="verpak11" name="verpak11" value=""><br />
+								</td>
+								<td>
+									<label for="verpak11">Voor eetproduct uit bakblik (breedte 6cm x lengte 20cm x hoogte 6cm) &euro;55. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="verpak12" name="verpak12" value=""><br />
+								</td>
+								<td>
+									<label for="verpak12">Voor eetproduct uit bakblik (breedte 6cm x lengte 25cm x hoogte 6cm) &euro;60. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="verpak13" name="verpak13" value=""><br />
+								</td>
+								<td>
+									<label for="verpak13"> Voor eetproduct uit springvorm (diameter 20cm x hoogte 5cm) &euro;65. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="verpak14" name="verpak14" value=""><br />
+								</td>
+								<td>
+									<label for="verpak14">Voor eetproduct uit springvorm (diameter 10cm x hoogte 5cm) &euro;70. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="verpak15" name="verpak15" value=""><br />
+								</td>
+								<td>
+									<label for="verpak15">Voor eetproduct uit springvorm (diameter 20cm x hoogte 5cm) &euro;75. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="verpak16" name="verpak16" value=""><br />
+								</td>
+								<td>
+									<label for="verpak16">Voor eetproduct uit springvorm (diameter 25cm x hoogte 5cm) &euro;80. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="verpak17" name="verpak17" value=""><br />
+								</td>
+								<td>
+									<label for="verpak15"> Voor eetproduct uit springvorm (diameter 30cm x hoogte 5cm) &euro;85. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="verpak18" name="verpak18" value=""><br />
+								</td>
+								<td>
+									<label for="verpak18"> Voor eetproduct uit springvorm (diameter 10cm x hoogte 6cm) &euro;90. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="verpak19" name="verpak19" value=""><br />
+								</td>
+								<td>
+									<label for="verpak19">Voor eetproduct uit springvorm (diameter 20cm x hoogte 6cm) &euro;95. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="verpak20" name="verpak20" value=""><br />
+								</td>
+								<td>
+									<label for="verpak20">Voor eetproduct uit springvorm (diameter 25cm x hoogte 6cm) &euro;100. &nbsp;</label><br />
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<input placeholder="Getallen" type="text" id="verpak21" name="verpak21" value=""><br />
+								</td>
+								<td>
+									<label for="verpak21">Voor eetproduct uit springvorm (diameter 30cm x hoogte 6cm) &euro;105. &nbsp;</label><br />
+								</td>
+							</tr>
+						</table>	
+						<!-- einde verpakkingsmiddelen invoervelden-->
+						<button name="bereken" type="button" onclick="berekenWaarde();">Bereken</button>
+						<button type="button" name="IndividueleProducten" onclick="ProductenWaarde();">Controleer ingevoerde producten</button>
+						<button type="button" name="bestel" onclick="verzendInfo();">Bestel</button>
+					</form>
+
+					<br>	
+					<div id="resultaat"></div>
+					<div id="totaalEx"></div>
+					<div id="kosten">
+					<div id="subtotaalEx"> Subtotaal (ex. BTW) &euro; </div>
+					<div id="subtotaalIn"> Subtotaal (in. BTW) &euro; </div>
+					</div>
+				</div>
+				<div id="lettergroottes">
+					<button type="button" name="verklein" onclick="verkleinFontSize();" class="textButton">Klein </button>
+					<button type="button" name="normaal" onclick="normaalFontSize();">Normaal </button>
+					<button type="button" name="vergroot" onclick="vergrootFontSize();">Groot </button>
+				</div>
+			</div>
+			<div id="popupWrapper">
+				<div id="popupResultaat" >
+					<div id="popupTopBorder">
+						<!-- popup close knop -->
+						<div id="closeButton"onclick="closeButton();"></div>
+					</div>
+					<!-- content voor de popup dus alle resultaat divs -->
+					<div id="popupContent">
+						<div id="meelResultaat1"></div> 
+						<div id="meelResultaat2"></div>
+						<div id="meelResultaat3"></div>
+						<div id="meelResultaat4"></div>
+						<div id="meelResultaat5"></div>
+						<div id="gistResultaat1"></div>
+						<div id="gistResultaat2"></div>
+						<div id="gistResultaat3"></div>
+						<div id="gistResultaat4"></div>
+						<div id="gistResultaat5"></div>
+						<div id="zoetResultaat1"></div>
+						<div id="zoetResultaat2"></div>
+						<div id="zoetResultaat3"></div>
+						<div id="zoetResultaat4"></div>
+						<div id="zoetResultaat5"></div>
+						<div id="bakResultaat1"></div>
+						<div id="bakResultaat2"></div>
+						<div id="bakResultaat3"></div>
+						<div id="bakResultaat4"></div>
+						<div id="bakResultaat5"></div>
+						<div id="bakResultaat6"></div>
+						<div id="bakResultaat7"></div>
+						<div id="bakResultaat8"></div>
+						<div id="bakResultaat9"></div>
+						<div id="bakResultaat10"></div>
+						<div id="bakResultaat11"></div>
+						<div id="bakResultaat12"></div>
+						<div id="springResultaat1"></div>
+						<div id="springResultaat2"></div>
+						<div id="springResultaat3"></div>
+						<div id="springResultaat4"></div>
+						<div id="springResultaat5"></div>
+						<div id="springResultaat6"></div>
+						<div id="springResultaat7"></div>
+						<div id="springResultaat8"></div>
+						<div id="verpakResultaat1"></div>
+						<div id="verpakResultaat2"></div>
+						<div id="verpakResultaat3"></div>
+						<div id="verpakResultaat4"></div>
+						<div id="verpakResultaat5"></div>
+						<div id="verpakResultaat6"></div>
+						<div id="verpakResultaat7"></div>
+						<div id="verpakResultaat8"></div>
+						<div id="verpakResultaat9"></div>
+						<div id="verpakResultaat10"></div>
+						<div id="verpakResultaat11"></div>
+						<div id="verpakResultaat12"></div>
+						<div id="verpakResultaat13"></div>
+						<div id="verpakResultaat14"></div>
+						<div id="verpakResultaat15"></div>
+						<div id="verpakResultaat16"></div>
+						<div id="verpakResultaat17"></div>
+						<div id="verpakResultaat18"></div>
+						<div id="verpakResultaat19"></div>
+						<div id="verpakResultaat20"></div>
+						<div id="verpakResultaat21"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

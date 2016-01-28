@@ -3,18 +3,87 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title></title>
-        <link href="style.css" rel="stylesheet">
-        <script src="JavaScript.js"></script>
+        <title>
+          Toets AO
+        </title>
+        <link rel="stylesheet" type="text/css" href="StyleSheet.css">
+        <script src="Uitwerking2A.js"></script>
+        <script src="Uitwerking2B.js"></script>
+        <script src="Uitwerking2C.js"></script>
+        <script src="Uitwerking2D.js"></script>
     </head>
     <body>
-        <div id="vlak" onclick="buttonClick()">
-            knop
+      <div id="header">
+        <h3>
+          Toets applicatieontwikkeling | Periode 2
+        </h3>
+      </div>
+      <div id="invoer">
+        <form>
+          <label>
+            Getal 1:
+          </label>
+          <input type="text" id="getalA">
+          <br>
+          <label>
+            Getal 2:
+          </label>
+          <input type="text" id="getalB">
+        </form>
+      </div>
+      <div id="bewerkingen">
+        <div id="erbij">
+          <h1>
+            Optellen
+          </h1>
+          <p>
+            Voer twee getallen in en tel deze bij elkaar op.
+          </p>
+          <input type="button" class="knop" value="Uitvoeren" onclick="optellen()">
+          <p id="uitkomstErbij">
+          </p>
         </div>
-
-
-        <div id="resultaat"></div>
-
-        
+        <div id="eraf">
+          <h1>
+            Aftrekken
+          </h1>
+          <p>
+            Voer twee getallen in en haal deze van elkaar af.
+          </p>
+          <input type="button" class="knop" value="Uitvoeren" onclick="aftrekken()">
+          <p id="uitkomstEraf">
+          </p>
+        </div>
+        <div id="tekst">
+          <h1>
+            Lengte naam
+          </h1>
+          <p>
+            Voer je naam in en bepaal de lengte van je naam.
+          </p>
+          <input type="text" class="naamInvoer" id="naam">
+          <br>
+          <input type="button" class="knop" value="Uitvoeren" onclick="lengteNaam()">
+          <p id="uitkomstTekst">
+          </p>
+        </div>
+        <div id="letter">
+          <h1>
+            Zoek letter
+          </h1>
+          <p>
+            Voer een naam in.
+          </p>
+          <input type="text" class="naamInvoer" id="invoerNaam">
+           <p>
+            Voer een letter in die voorkomt in de naam hierboven.
+          </p>
+          <input type="text" class="naamInvoer" id="invoerLetter">
+          <br>
+          <input type="button" class="knop" value="Uitvoeren" onclick="zoekLetter()">
+          <p id="uitkomstLetter">
+          </p>
+        </div> 
+      </div>
     </body>
 </html>
