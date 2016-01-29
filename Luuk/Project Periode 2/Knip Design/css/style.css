@@ -48,7 +48,6 @@ body    {
 }#header {
     height: 400px;
     width: 70%;
-    background-color: ;
     margin: 0 auto;
     position: relative;
     text-align: center;
@@ -61,7 +60,7 @@ body    {
 }
 
 #contentWrapper    {
-    height: 800px;
+    height: 100%;
     width: 70%;
     background-color: #E7E3C1;
     margin: 0 auto;
@@ -77,9 +76,29 @@ body    {
     
 }
 
+#content h1 {
+    padding: 10px 0px 10px 0px;
+    margin: 0px;
+    top: 25px;
+    position: relative;
+}
+
 #content p  {
     padding: 10px 0px 10px 0px;
     margin: 0px;
     top: 25px;
     position: relative;
+}
+
+button  {
+    margin-bottom: 50px;
+}
+
+input   {
+    color: #7C9890;
+    border-radius: 7px;
+}
+
+form    {
+    margin-top: 25px;
 }

@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>parrota - Home</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="js/JavaScript.js"></script>
+    </head>
+    <body>
+        <div id="menu">
+            <a href="index.html"><img src="images/parotta(3).png" alt="Parotta Logo"/></a>
+            <ul>
+                <li>
+                    <a href="index.html">INDEX</a>
+                </li>
+                <li>
+                    <a href="bestel.html">BESTEL</a>
+                </li>
+                <li>
+                    <a href="info.html">INFO</a>
+                </li>
+                <li>
+                    <a href="contact.html">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+        <div id="header">
+            <img src="images/parotta(2).png" alt="Parotta Logo"/>
+        </div>
+        <div id="contentWrapper">
+            <div id="content">
+                Voedingsmiddelen: <br />
+	            <form>
+                    <label>Producten: &nbsp;</label>
+                    <table>
+                        <tr>
+                            <td>Meel Producten:</td>
+                    
+                        </tr>
+                        <tr>
+                            <td>1 Kilogram &euro;2,50</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="meel1" name="1kilogram" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>2,5 Kilogram &euro;5</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="meel2" name="2kilogram" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>5 Kilogram &euro;10</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="meel5" name="5kilogram" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>10 kilogram &euro;19</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="meel10" name="10kilogram" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>25 kilogram &euro;30</td>
+                            <td><input autocomplete="off" min="0" type="number" id="meel25" name="25kilogram" value="0" onchange="change();"></td>
+                        </tr>
+                    <div id="resultaatMeel"></div>
+                    <br>
+                    <br>
+                    <label>Producten: &nbsp;</label>
+                        <tr>
+                            <td>Gist Producten:</td>
+                    
+                        </tr>
+                        <tr>
+                            <td>Bakkers gist &euro;10</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="gist1" name="Bakkers gist" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>Biergist &euro;20</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="gist2" name="Bier gist" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>Verse gist &euro;30</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="gist3" name="Verse gist" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>Gedroogde gist 7 gram &euro;40</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="gist4" name="Gedroogde gist 7 gram" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>Instant gist 500 gram &euro;50</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="gist5" name="Instant gist 500 gram" value="0" onchange="change();"></td>
+                        </tr>
+                    <div id="resultaatGist"></div>
+                    <br />
+                    <label>Producten: &nbsp;</label>
+                        <tr>
+                            <td>Suiker Producten:</td>
+                    
+                        </tr>
+                        <tr>
+                            <td>Suiker 1 kilogram &euro;1</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="suiker1" name="Suiker 25 kilogram" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>Suiker 2,5 kilogram &euro;2</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="suiker2" name="Suiker 25 kilogram" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>Suiker 5 kilogram &euro;3</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="suiker3" name="Suiker 25 kilogram" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>Suiker 10 kilogram &euro;4</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="suiker4" name="Suiker 25 kilogram" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>Suiker 25 kilogram &euro;5</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="suiker5" name="Suiker 25 kilogram" value="0" onchange="change();"></td>
+                        </tr>
+                    <div id="resultaatSuiker"></div>
+                    <br />
+                    <label>bakmiddelen: &nbsp;</label>
+                        <tr>
+                            <td>Bakblikken:</td>
+                        </tr>
+                        <tr>
+                            <td>breedte 5cm x lengte 10cm x hoogte 5cm &euro;1</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="bakblik1" name="bakblik1" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>breedte 5cm x lengte 20cm x hoogte 5cm. &euro;2</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="bakblik2" name="bakblik2" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>breedte 5cm x lengte 25cm x hoogte 5cm. &euro;3</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="bakblik3" name="bakblik3" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>breedte 6cm x lengte 10cm x hoogte 5cm. &euro;4</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="bakblik4" name="bakblik4" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>breedte 6cm x lengte 20cm x hoogte 5cm. &euro;5</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="bakblik5" name="bakblik5" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>breedte 6cm x lengte 25cm x hoogte 5cm. &euro;6</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="bakblik6" name="bakblik6" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>breedte 5cm x lengte 10cm x hoogte 6cm. &euro;7</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="bakblik7" name="bakblik7" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>breedte 5cm x lengte 20cm x hoogte 6cm. &euro;8</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="bakblik8" name="bakblik8" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>breedte 5cm x lengte 25cm x hoogte 6cm. &euro;9</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="bakblik9" name="bakblik9" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>breedte 6cm x lengte 10cm x hoogte 6cm. &euro;10</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="bakblik10" name="bakblik10" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>breedte 6cm x lengte 20cm x hoogte 6cm. &euro;11</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="bakblik11" name="bakblik11" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>breedte 6cm x lengte 25cm x hoogte 6cm. &euro;12</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="bakblik12" name="bakblik12" value="0" onchange="change();"></td>
+                        </tr>
+                    <div id="resultaatBakblik"></div>
+                    <br />
+                    <label>bakmiddelen: &nbsp;</label>
+                        <tr>
+                            <td>Springvormen:</td>
+                        </tr>
+                        <tr>
+                            <td>diameter 10cm x hoogte 5cm &euro;5</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="spring1" name="spring1" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>diameter 20cm x hoogte 5cm &euro;10</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="spring2" name="spring2" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>diameter 25cm x hoogte 5cm. &euro;15</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="spring3" name="spring3" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>diameter 30cm x hoogte 5cm. &euro;20</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="spring4" name="spring4" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>diameter 10cm x hoogte 6cm. &euro;25</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="spring5" name="spring5" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>diameter 20cm x hoogte 6cm. &euro;30</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="spring6" name="spring6" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>diameter 25cm x hoogte 6cm. &euro;35</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="spring7" name="spring7" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>diameter 30cm x hoogte 6cm. &euro;40</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="spring8" name="spring8" value="0" onchange="change();"></td>
+                        </tr>
+                    <div id="resultaatSpring"></div>
+                    <br />
+                    <label>Verpakkingsmiddelen: &nbsp;</label>
+                        <tr>
+                            <td>Kartonnen doos met doorkijkvenster:</td>
+                        </tr>
+                        <tr>
+                            <td>Voor eetproduct uit bakblik (breedte 5cm x lengte 10cm x hoogte 5cm). &euro;3</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="doosblik1" name="bakblik1" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>Voor eetproduct uit bakblik (breedte 5cm x lengte 20cm x hoogte 5cm). &euro;6</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="doosblik2" name="bakblik2" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>Voor eetproduct uit bakblik (breedte 5cm x lengte 25cm x hoogte 5cm). &euro;12</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="doosblik3" name="bakblik3" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>Voor eetproduct uit bakblik (breedte 6cm x lengte 10cm x hoogte 5cm). &euro;15</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="doosblik4" name="doosblik4" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>Voor eetproduct uit bakblik (breedte 6cm x lengte 20cm x hoogte 5cm). &euro;18</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="doosblik5" name="doosblik5" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>Voor eetproduct uit bakblik (breedte 6cm x lengte 25cm x hoogte 5cm). &euro;21</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="doosblik6" name="doosblik6" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>Voor eetproduct uit bakblik (breedte 5cm x lengte 10cm x hoogte 6cm). &euro;24</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="doosblik7" name="doosblik7" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>Voor eetproduct uit bakblik (breedte 5cm x lengte 20cm x hoogte 6cm). &euro;27</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="doosblik8" name="doosblik8" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>Voor eetproduct uit bakblik (breedte 5cm x lengte 25cm x hoogte 6cm). &euro;30</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="doosblik9" name="doosblik9" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>Voor eetproduct uit bakblik (breedte 6cm x lengte 10cm x hoogte 6cm).&euro;33</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="doosblik10" name="doosblik10" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>Voor eetproduct uit bakblik (breedte 6cm x lengte 20cm x hoogte 6cm). &euro;36</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="doosblik11" name="doosblik11" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>Voor eetproduct uit bakblik (breedte 6cm x lengte 25cm x hoogte 6cm) &euro;39</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="doosblik12" name="doosblik12" value="0" onchange="change();"></td>
+                        </tr>
+                    
+                    <div id="resultaatDoosblik"></div>
+                    <br />
+                    <label>Verpakkingsmiddelen: &nbsp;</label>
+                    
+                        <tr>
+                            <td>- Kartonnen doos met doorkijkvenster:</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Voor eetproduct uit springvorm (diameter 10cm x hoogte 5cm). &euro;2</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="springdoos1" name="springdoos1" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>Voor eetproduct uit springvorm (diameter 20cm x hoogte 5cm). &euro;4</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="springdoos2" name="springdoos2" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>Voor eetproduct uit springvorm (diameter 25cm x hoogte 5cm). &euro;6</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="springdoos3" name="springdoos3" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>Voor eetproduct uit springvorm (diameter 30cm x hoogte 5cm). &euro;8</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="springdoos4" name="springdoos4" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>Voor eetproduct uit springvorm (diameter 10cm x hoogte 6cm). &euro;10</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="springdoos5" name="springdoos5" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>Voor eetproduct uit springvorm (diameter 20cm x hoogte 6cm). &euro;12</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="springdoos6" name="springdoos6" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>Voor eetproduct uit springvorm (diameter 25cm x hoogte 6cm). &euro;14</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="springdoos7" name="springdoos7" value="0" onchange="change();"></td>
+                        </tr>
+                        <tr>
+                            <td>Voor eetproduct uit springvorm (diameter 30cm x hoogte 6cm) &euro;16</td>
+                            <td><input autocomplete="off" min="0"  type="number" id="springdoos8" name="springdoos8" value="0" onchange="change();"></td>
+                        </tr>
+                    </table>
+                    <div id="resultaatSpringdoos"></div>
+                    <br />
+			        <label >Persoonlijke gegevens : &nbsp;</label><br />
+			        <table border="0" width="520px">
+				        <tr>
+					        <td>
+						        <label for="voornaam">Voornaam: &nbsp;</label><br />
+					        </td>
+					        <td>
+						        <input autocomplete="off" type="text" id="voornaam" name="voornaam" value="">* <br />
+					        </td>
+				        </tr>
+				        <tr>
+					        <td>
+						        <label for="achternaam">Achternaam: &nbsp;</label><br />
+					        </td>
+					        <td>
+						        <input type="text" id="achternaam" name="achternaam" value="">*<br />
+					        </td>
+				        </tr>
+				        <tr>
+					        <td>
+						        <label for="geboortedatum">Geboortedatum: &nbsp;</label><br />
+					        </td>
+					        <td>
+						        <input type="text" id="geboortedatum" name="geboortedatum" value="">*<br />
+					        </td>
+				        </tr>
+				        <tr>
+					        <td>
+						        <label for="email">E-mail adres: &nbsp;</label><br />
+					        </td>
+					        <td>
+						        <input type="text" id="email" name="email" value="">*<br />
+					        </td>
+				        </tr>
+				        <tr>
+					        <td>
+						        <label for="iban">IBAN: &nbsp;</label><br />
+					        </td>
+					        <td>
+						        <input type="text" id="iban" name="iban" value="">*<br />
+					        </td>
+				        </tr>
+			        </table>
+			        <label >Adres gegevens : &nbsp;</label><br />
+			        <table border="0" width="606px">
+				        <tr>
+					        <td>
+						        <label for="straat">Straat: &nbsp;</label><br />
+					        </td>
+					        <td>
+						        <input type="text" id="straat" name="straat" value="">*<br />
+					        </td>
+				        </tr>
+				        <tr>
+					        <td>
+						        <label for="postcode">Postcode: &nbsp;</label><br />
+					        </td>
+					        <td>
+						        <input type="text" id="postcode" name="postcode" value="">*<br />
+					        </td>
+				        </tr>
+				        <tr>
+					        <td>
+						        <label for="woonplaats">Woonplaats: &nbsp;</label><br />
+					        </td>
+					        <td>
+						        <input type="text" id="woonplaats" name="woonplaats" value="">*<br />
+					        </td>
+				        </tr>
+				        <tr>
+					        <td>
+						        <label for="provincie">Provincie: &nbsp;</label><br />
+					        </td>
+					        <td>
+						        <input type="text" id="provincie" name="provincie" value="">*<br />
+					        </td>
+				        </tr>
+			        </table>		
+		        </form>
+		        <hr>
+                <button type="button" name="bestel" onclick="verzendInfo();">Bestel</button>
+                <div id="resultaat"></div>
+            </div>
+        </div>
+        
+    </body>
+</html>
