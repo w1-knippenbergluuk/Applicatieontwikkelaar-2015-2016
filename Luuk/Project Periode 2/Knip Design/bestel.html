@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>parrota - Home</title>
+        <title>parrota - Bestellen</title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <script src="js/JavaScript.js"></script>
     </head>
@@ -12,7 +12,7 @@
             <a href="index.html"><img src="images/parotta(3).png" alt="Parotta Logo"/></a>
             <ul>
                 <li>
-                    <a href="index.html">INDEX</a>
+                    <a href="index.html">HOME</a>
                 </li>
                 <li>
                     <a href="bestel.html">BESTEL</a>
@@ -30,15 +30,16 @@
         </div>
         <div id="contentWrapper">
             <div id="content">
-                <h2>Producten:</h2>
+                <h1>Producten</h1>
 	            <form>
                     <table>
                         <tr>
-                            <td><label>Voedingsmiddelen: &nbsp;</label></td>
+                            <td><span class="boldBig">Voedingsmiddelen &nbsp;</span></td>
+                            <td></td>
                         </tr>
                         <tr>
-                            <td>Meel Producten:</td>
-                    
+                            <td><span class="bold">Meel:</span></td>
+                            <td></td>
                         </tr>
                         <tr>
                             <td>1 Kilogram &euro;2,50</td>
@@ -57,15 +58,24 @@
                             <td><input autocomplete="off" min="0"  type="number" id="meel10" name="10kilogram" value="0" onchange="change();"></td>
                         </tr>
                         <tr>
-                            <td>25 kilogram &euro;30</td>
+                            <td >25 kilogram &euro;30</td>
                             <td><input autocomplete="off" min="0" type="number" id="meel25" name="25kilogram" value="0" onchange="change();"></td>
                         </tr>
-
+                        <!--
                         <tr>
                             <td>De kosten van de meel producten zonder btw = €<span id="resultaatMeel"></span></td>
+                            <td></td>
                         </tr>
                         <tr>
                             <td class="testert">inclusief BTW = €<span id="resultaatMeelBTW"></span></td>
+                            <td></td>
+                        </tr>
+                        -->
+                        <tr>
+                            <td>
+                                <span class="bold">Gist:</span> 
+                            </td>
+                            <td></td>
                         </tr>
                         <tr>
                             <td>Bakkers gist &euro;10</td>
@@ -87,13 +97,23 @@
                             <td>Instant gist 500 gram &euro;50</td>
                             <td><input autocomplete="off" min="0"  type="number" id="gist5" name="Instant gist 500 gram" value="0" onchange="change();"></td>
                         </tr>
+                        <!--
                         <tr>
                             <td>De kosten van de gist producten zonder btw = €<span id="resultaatGist"></span></td>
+                            <td></td>
                         </tr>
                         <tr>
                             <td class="testert">inclusief BTW = €<span id="resultaatGistBTW"></span></td>
+                            <td></td>
                         </tr>
-                        <tr>                  
+                        -->
+                        <tr>    
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><span class="bold">Zoetwaren:</span></td>
+                            <td></td>
                         </tr>
                         <tr>
                             <td>Suiker 1 kilogram &euro;1</td>
@@ -112,20 +132,30 @@
                             <td><input autocomplete="off" min="0"  type="number" id="suiker4" name="Suiker 25 kilogram" value="0" onchange="change();"></td>
                         </tr>
                         <tr>
-                            <td>Suiker 25 kilogram &euro;5</td>
+                            <td class="borderBottom">Suiker 25 kilogram &euro;5</td>
                             <td><input autocomplete="off" min="0"  type="number" id="suiker5" name="Suiker 25 kilogram" value="0" onchange="change();"></td>
                         </tr>
                         <tr>
-                            <td>De kosten van de Suiker producten zonder btw = €<span id="resultaatSuiker"></span></td>
+                            <td>De totaalkosten van de voedingsmiddelen zonder BTW: €<span id="totaalVoeding"></span></td>
+                            <td></td>
                         </tr>
                         <tr>
-                            <td class="testert">inclusief BTW = €<span id="resultaatSuikerBTW"></span></td>
+                            <td class="testert">inclusief 6% BTW = €<span id="totaalVoedingBTW"></span></td>
+                            <td></td>
                         </tr>
                         <tr>
-                            <td><label>bakmiddelen: &nbsp;</label></td>
+                            <td></td>
+                            <td></td>
                         </tr>
                         <tr>
-                            <td>Bakblikken: </td>
+                            <td class="paddingTop">
+                                <span class="boldBig">Bakmiddelen</span>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><span class="bold">Bakblikken:</span> </td>
+                            <td></td>
                         </tr>
                         <tr>
                             <td>breedte 5cm x lengte 10cm x hoogte 5cm &euro;1</td>
@@ -172,20 +202,22 @@
                             <td><input autocomplete="off" min="0"  type="number" id="bakblik11" name="bakblik11" value="0" onchange="change();"></td>
                         </tr>
                         <tr>
-                            <td>breedte 6cm x lengte 25cm x hoogte 6cm. &euro;12</td>
+                            <td >breedte 6cm x lengte 25cm x hoogte 6cm. &euro;12</td>
                             <td><input autocomplete="off" min="0"  type="number" id="bakblik12" name="bakblik12" value="0" onchange="change();"></td>
                         </tr>
+                        <!--
                         <tr>
                             <td>De kosten van de bakblikken zonder btw = €<span id="resultaatBakblik"></span></td>
+                            <td></td>
                         </tr>
                         <tr>
                             <td class="testert">inclusief BTW = €<span id="resultaatBakblikBTW"></span></td>
+                            <td></td>
                         </tr>
+                        -->
                         <tr>
-                            <td><label>verpakkingsmiddelen: &nbsp;</label></td>
-                        </tr>
-                        <tr>
-                            <td>Springvormen: </td>
+                            <td><span class="bold">Springvormen:</span> </td>
+                            <td></td>
                         </tr>
                         <tr>
                             <td>diameter 10cm x hoogte 5cm &euro;5</td>
@@ -216,17 +248,26 @@
                             <td><input autocomplete="off" min="0"  type="number" id="spring7" name="spring7" value="0" onchange="change();"></td>
                         </tr>
                         <tr>
-                            <td>diameter 30cm x hoogte 6cm. &euro;40</td>
+                            <td class="borderBottom">diameter 30cm x hoogte 6cm. &euro;40</td>
                             <td><input autocomplete="off" min="0"  type="number" id="spring8" name="spring8" value="0" onchange="change();"></td>
                         </tr>
                         <tr>
-                            <td>De kosten van de springvormen zonder btw = €<span id="resultaatSpring"></span></td>
+                            <td>De totaalkosten van de voedingsmiddelen zonder BTW: €<span id="totaalBakmiddel"></span></td>
+                            <td></td>
                         </tr>
                         <tr>
-                            <td class="testert">inclusief BTW = €<span id="resultaatSpringBTW"></span></td>
+                            <td class="testert">inclusief 6% BTW = €<span id="totaalBakmiddelBTW"></span></td>
+                            <td></td>
                         </tr>
                         <tr>
-                            <td>Kartonnen doos met doorkijkvenster: </td>
+                            <td class="paddingTop">
+                                <span class="boldBig">Verpakkingsmiddelen:</span>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><span class="bold">Kartonnen doos met doorkijkvenster:</span> </td>
+                            <td></td>
                         </tr>
                         <tr>
                             <td>Voor eetproduct uit bakblik (breedte 5cm x lengte 10cm x hoogte 5cm). &euro;3</td>
@@ -273,17 +314,22 @@
                             <td><input autocomplete="off" min="0"  type="number" id="doosblik11" name="doosblik11" value="0" onchange="change();"></td>
                         </tr>
                         <tr>
-                            <td>Voor eetproduct uit bakblik (breedte 6cm x lengte 25cm x hoogte 6cm) &euro;39</td>
+                            <td >Voor eetproduct uit bakblik (breedte 6cm x lengte 25cm x hoogte 6cm) &euro;39</td>
                             <td><input autocomplete="off" min="0"  type="number" id="doosblik12" name="doosblik12" value="0" onchange="change();"></td>
                         </tr>
+                        <!--
                         <tr>
                             <td>De kosten van de bakblikken zonder btw = €<span id="resultaatDoosblik"></span></td>
+                            <td></td>
                         </tr>
                         <tr>
                             <td class="testert">inclusief BTW = €<span id="resultaatDoosblikBTW"></span></td>
+                            <td></td>
                         </tr>
+                        -->
                         <tr>
-                            <td>- Kartonnen doos met doorkijkvenster:</td>
+                            <td><span class="bold">Kartonnen doos met doorkijkvenster:</span></td>
+                            <td></td>
                         </tr>
                         <tr>
                             <td>Voor eetproduct uit springvorm (diameter 10cm x hoogte 5cm). &euro;2</td>
@@ -314,17 +360,22 @@
                             <td><input autocomplete="off" min="0"  type="number" id="springdoos7" name="springdoos7" value="0" onchange="change();"></td>
                         </tr>
                         <tr>
-                            <td>Voor eetproduct uit springvorm (diameter 30cm x hoogte 6cm) &euro;16</td>
+                            <td class="borderBottom">Voor eetproduct uit springvorm (diameter 30cm x hoogte 6cm) &euro;16</td>
                             <td><input autocomplete="off" min="0"  type="number" id="springdoos8" name="springdoos8" value="0" onchange="change();"></td>
                         </tr>
                         <tr>
-                            <td>De kosten van de springdozen zonder btw = €<span id="resultaatSpringdoos"></span></td>
+                            <td>De totaalkosten van de verpakkingsmiddelen zonder BTW: €<span id="totaalVerpakking"></span></td>
+                            <td></td>
                         </tr>
                         <tr>
-                            <td class="testert">inclusief BTW = €<span id="resultaatSpringdoosBTW"></span></td>
+                            <td class="testert">inclusief 6% BTW = €<span id="totaalVerpakkingBTW"></span></td>
+                            <td></td>
                         </tr>
                         <tr>
-                            <td><label >Persoonlijke gegevens : &nbsp;</label></td>
+                            <td class="paddingTop">
+                                <span class="boldBig">Persoonlijke gegevens : &nbsp;</span>
+                            </td>
+                            <td></td>
                         </tr>
 				        <tr>
 					        <td>
@@ -332,6 +383,15 @@
 					        </td>
 					        <td>
 						        <input autocomplete="off" type="text" id="voornaam" name="voornaam" value="">* <br />
+					        </td>
+				        </tr>
+
+                        <tr>
+					        <td>
+						        <label for="tussenvoegsel">Tussenvoegsel: &nbsp;</label><br />
+					        </td>
+					        <td>
+						        <input type="text" id="tussenvoegsel" name="tussenvoegsel" value="">*<br />
 					        </td>
 				        </tr>
 				        <tr>
@@ -368,6 +428,7 @@
 				        </tr>
                         <tr>
                             <td><label >Adres gegevens : &nbsp;</label></td>
+                            <td></td>
                         </tr>
 				        <tr>
 					        <td>
@@ -406,21 +467,25 @@
 		        <hr>
                 <button type="button" name="bestel" onclick="verzendInfo();">Bestel</button>
                 <div id="resultaat"></div>
-                </div>
+            </div>
         </div>
         <div id="black"></div>
         <div id="popupWrapper">
-				    <div id="popupResultaat" >
-					    <div id="popupTopBorder">
-						    <!-- popup close knop -->
-						    <div id="closeButton"onclick="closeButton();"></div>
-					    </div>
-					    <!-- content voor de popup dus alle resultaat divs -->
-					    <div id="popupContent">
-
-					    </div>
-				    </div>
-			    </div>
-            
+			<div id="popupResultaat" >
+				<div id="popupTopBorder">
+					<!-- popup close knop -->
+					<div id="closeButton" onclick="closeButton();"></div>
+				</div>
+				<!-- content voor de popup dus alle resultaat divs -->
+				<div id="popupContent">
+                    <div id="factuur"></div>
+				</div>
+			</div>
+		</div>
+        <div id="footer">
+            <p>
+            © 2016 Parrota - Luuk Knippenberg Webdesign
+            </p>
+        </div>
     </body>
 </html>
