@@ -97,6 +97,7 @@ button  {
 input   {
     color: #7C9890;
     border-radius: 7px;
+    width: 173px;
 }
 
 form    {
@@ -151,4 +152,8 @@ form    {
     z-index: 99999;
     width: 100%;
     height: 100%;
+}
+
+.testert    {
+    border-bottom: 1px solid #7C9890;
 }

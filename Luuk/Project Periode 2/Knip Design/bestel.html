@@ -37,7 +37,7 @@
                             <td><label>Voedingsmiddelen: &nbsp;</label></td>
                         </tr>
                         <tr>
-                            <td>Meel Producten: <div id="resultaatMeel"></div></td>
+                            <td>Meel Producten:</td>
                     
                         </tr>
                         <tr>
@@ -62,8 +62,10 @@
                         </tr>
 
                         <tr>
-                            <td>Gist Producten: <div id="resultaatGist"></div></td>
-                    
+                            <td>De kosten van de meel producten zonder btw = €<span id="resultaatMeel"></span></td>
+                        </tr>
+                        <tr>
+                            <td class="testert">inclusief BTW = €<span id="resultaatMeelBTW"></span></td>
                         </tr>
                         <tr>
                             <td>Bakkers gist &euro;10</td>
@@ -85,10 +87,13 @@
                             <td>Instant gist 500 gram &euro;50</td>
                             <td><input autocomplete="off" min="0"  type="number" id="gist5" name="Instant gist 500 gram" value="0" onchange="change();"></td>
                         </tr>
-                    
                         <tr>
-                            <td>Suiker Producten: <div id="resultaatSuiker"></div></td>
-                    
+                            <td>De kosten van de gist producten zonder btw = €<span id="resultaatGist"></span></td>
+                        </tr>
+                        <tr>
+                            <td class="testert">inclusief BTW = €<span id="resultaatGistBTW"></span></td>
+                        </tr>
+                        <tr>                  
                         </tr>
                         <tr>
                             <td>Suiker 1 kilogram &euro;1</td>
@@ -110,12 +115,17 @@
                             <td>Suiker 25 kilogram &euro;5</td>
                             <td><input autocomplete="off" min="0"  type="number" id="suiker5" name="Suiker 25 kilogram" value="0" onchange="change();"></td>
                         </tr>
-                    
+                        <tr>
+                            <td>De kosten van de Suiker producten zonder btw = €<span id="resultaatSuiker"></span></td>
+                        </tr>
+                        <tr>
+                            <td class="testert">inclusief BTW = €<span id="resultaatSuikerBTW"></span></td>
+                        </tr>
                         <tr>
                             <td><label>bakmiddelen: &nbsp;</label></td>
                         </tr>
                         <tr>
-                            <td>Bakblikken: <div id="resultaatBakblik"></div></td>
+                            <td>Bakblikken: </td>
                         </tr>
                         <tr>
                             <td>breedte 5cm x lengte 10cm x hoogte 5cm &euro;1</td>
@@ -165,12 +175,17 @@
                             <td>breedte 6cm x lengte 25cm x hoogte 6cm. &euro;12</td>
                             <td><input autocomplete="off" min="0"  type="number" id="bakblik12" name="bakblik12" value="0" onchange="change();"></td>
                         </tr>
-                    
+                        <tr>
+                            <td>De kosten van de bakblikken zonder btw = €<span id="resultaatBakblik"></span></td>
+                        </tr>
+                        <tr>
+                            <td class="testert">inclusief BTW = €<span id="resultaatBakblikBTW"></span></td>
+                        </tr>
                         <tr>
                             <td><label>verpakkingsmiddelen: &nbsp;</label></td>
                         </tr>
                         <tr>
-                            <td>Springvormen: <div id="resultaatSpring"></div></td>
+                            <td>Springvormen: </td>
                         </tr>
                         <tr>
                             <td>diameter 10cm x hoogte 5cm &euro;5</td>
@@ -204,9 +219,14 @@
                             <td>diameter 30cm x hoogte 6cm. &euro;40</td>
                             <td><input autocomplete="off" min="0"  type="number" id="spring8" name="spring8" value="0" onchange="change();"></td>
                         </tr>
-
                         <tr>
-                            <td>Kartonnen doos met doorkijkvenster: <div id="resultaatDoosblik"></div></td>
+                            <td>De kosten van de springvormen zonder btw = €<span id="resultaatSpring"></span></td>
+                        </tr>
+                        <tr>
+                            <td class="testert">inclusief BTW = €<span id="resultaatSpringBTW"></span></td>
+                        </tr>
+                        <tr>
+                            <td>Kartonnen doos met doorkijkvenster: </td>
                         </tr>
                         <tr>
                             <td>Voor eetproduct uit bakblik (breedte 5cm x lengte 10cm x hoogte 5cm). &euro;3</td>
@@ -256,15 +276,14 @@
                             <td>Voor eetproduct uit bakblik (breedte 6cm x lengte 25cm x hoogte 6cm) &euro;39</td>
                             <td><input autocomplete="off" min="0"  type="number" id="doosblik12" name="doosblik12" value="0" onchange="change();"></td>
                         </tr>
-
                         <tr>
-                            <td>- Kartonnen doos met doorkijkvenster: <div id="resultaatSpringdoos"></div></td>
+                            <td>De kosten van de bakblikken zonder btw = €<span id="resultaatDoosblik"></span></td>
                         </tr>
                         <tr>
-                            <td></td>
+                            <td class="testert">inclusief BTW = €<span id="resultaatDoosblikBTW"></span></td>
                         </tr>
                         <tr>
-                            <td></td>
+                            <td>- Kartonnen doos met doorkijkvenster:</td>
                         </tr>
                         <tr>
                             <td>Voor eetproduct uit springvorm (diameter 10cm x hoogte 5cm). &euro;2</td>
@@ -298,10 +317,15 @@
                             <td>Voor eetproduct uit springvorm (diameter 30cm x hoogte 6cm) &euro;16</td>
                             <td><input autocomplete="off" min="0"  type="number" id="springdoos8" name="springdoos8" value="0" onchange="change();"></td>
                         </tr>
-                    </table>
-                    
-			        <label >Persoonlijke gegevens : &nbsp;</label><br />
-			        <table border="0" width="520px">
+                        <tr>
+                            <td>De kosten van de springdozen zonder btw = €<span id="resultaatSpringdoos"></span></td>
+                        </tr>
+                        <tr>
+                            <td class="testert">inclusief BTW = €<span id="resultaatSpringdoosBTW"></span></td>
+                        </tr>
+                        <tr>
+                            <td><label >Persoonlijke gegevens : &nbsp;</label></td>
+                        </tr>
 				        <tr>
 					        <td>
 						        <label for="voornaam">Voornaam: &nbsp;</label><br />
@@ -323,7 +347,7 @@
 						        <label for="geboortedatum">Geboortedatum: &nbsp;</label><br />
 					        </td>
 					        <td>
-						        <input type="text" id="geboortedatum" name="geboortedatum" value="">*<br />
+						        <input type="date" id="geboortedatum" name="geboortedatum" value="">*<br />
 					        </td>
 				        </tr>
 				        <tr>
@@ -331,7 +355,7 @@
 						        <label for="email">E-mail adres: &nbsp;</label><br />
 					        </td>
 					        <td>
-						        <input type="text" id="email" name="email" value="">*<br />
+						        <input type="email" id="email" name="email" value="">*<br />
 					        </td>
 				        </tr>
 				        <tr>
@@ -342,9 +366,9 @@
 						        <input type="text" id="iban" name="iban" value="">*<br />
 					        </td>
 				        </tr>
-			        </table>
-			        <label >Adres gegevens : &nbsp;</label><br />
-			        <table border="0" width="606px">
+                        <tr>
+                            <td><label >Adres gegevens : &nbsp;</label></td>
+                        </tr>
 				        <tr>
 					        <td>
 						        <label for="straat">Straat: &nbsp;</label><br />
