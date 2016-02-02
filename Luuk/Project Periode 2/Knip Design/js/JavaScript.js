@@ -1,5 +1,5 @@
 function verzendInfo() {
-//aanmaken variablen
+    //aanmaken variablen
     var $voornaam = document.getElementById('voornaam').value;
     var $achternaam = document.getElementById('achternaam').value;
 	var $email = document.getElementById('email').value;
@@ -8,14 +8,7 @@ function verzendInfo() {
 	var $woonplaats = document.getElementById('woonplaats').value;
     var $provincie = document.getElementById('provincie').value;
     var $iban = document.getElementById('iban').value;
-
-
-    if (isNaN($voornaam) && isNaN($achternaam)){
-        
-    }   else{
-        alert('Uw voor en/of achternaam kan geen cijfers bevatten');
-        return false;
-    }
+    var $geboortedatum = document.getElementById('geboortedatum').value;
 
   // controleren of invoervelden zijn ingevuld
      if ($voornaam == null || $voornaam == "" || $achternaam == null || $achternaam == "" || $geboortedatum == null || $geboortedatum == "" || $email == null || $email == "" ||
@@ -28,8 +21,32 @@ function verzendInfo() {
 	  + '<br />' + 'Straat:' +$straat + '<br />' + 'Postcode:' + $postcode +'<br />' + 'Woonplaats:' + $woonplaats + '<br />' + 'Provincie:'  + $provincie + '<br />' + 'Iban:'  + $iban;
 	 }
   
-	//var res = document.getElementById('resultaat');
+    // geen cijfer validatie
+    if (isNaN($voornaam) && isNaN($achternaam)){
+        
+    }   else{
+        alert('Uw voor en/of achternaam kan geen cijfers bevatten');
+        return false;
+    }
 
+    //iban no specials characters
+    if( /[^a-zA-Z0-9\-\/]/.test( $iban ) ) {
+        alert('U mag geen speciale tekens invullen bij "IBAN"');
+        return false;
+    }
+
+    return true;  
+
+    // popup openen.
+	document.getElementById('popupResultaat').style.visibility = 'visible';
+	document.getElementById('popupContent').style.opacity = '1';
+	document.getElementsByTagName("body")[0].style.overflow = 'hidden';
+
+}
+
+function closeButton()	{
+	document.getElementById('popupResultaat').style.visibility = 'hidden';
+	document.getElementsByTagName("body")[0].style.overflow = 'scroll';
 }
 
 function change() {

@@ -30,12 +30,14 @@
         </div>
         <div id="contentWrapper">
             <div id="content">
-                Voedingsmiddelen: <br />
+                <h2>Producten:</h2>
 	            <form>
-                    <label>Producten: &nbsp;</label>
                     <table>
                         <tr>
-                            <td>Meel Producten:</td>
+                            <td><label>Voedingsmiddelen: &nbsp;</label></td>
+                        </tr>
+                        <tr>
+                            <td>Meel Producten: <div id="resultaatMeel"></div></td>
                     
                         </tr>
                         <tr>
@@ -58,12 +60,9 @@
                             <td>25 kilogram &euro;30</td>
                             <td><input autocomplete="off" min="0" type="number" id="meel25" name="25kilogram" value="0" onchange="change();"></td>
                         </tr>
-                    <div id="resultaatMeel"></div>
-                    <br>
-                    <br>
-                    <label>Producten: &nbsp;</label>
+
                         <tr>
-                            <td>Gist Producten:</td>
+                            <td>Gist Producten: <div id="resultaatGist"></div></td>
                     
                         </tr>
                         <tr>
@@ -86,11 +85,9 @@
                             <td>Instant gist 500 gram &euro;50</td>
                             <td><input autocomplete="off" min="0"  type="number" id="gist5" name="Instant gist 500 gram" value="0" onchange="change();"></td>
                         </tr>
-                    <div id="resultaatGist"></div>
-                    <br />
-                    <label>Producten: &nbsp;</label>
+                    
                         <tr>
-                            <td>Suiker Producten:</td>
+                            <td>Suiker Producten: <div id="resultaatSuiker"></div></td>
                     
                         </tr>
                         <tr>
@@ -113,11 +110,12 @@
                             <td>Suiker 25 kilogram &euro;5</td>
                             <td><input autocomplete="off" min="0"  type="number" id="suiker5" name="Suiker 25 kilogram" value="0" onchange="change();"></td>
                         </tr>
-                    <div id="resultaatSuiker"></div>
-                    <br />
-                    <label>bakmiddelen: &nbsp;</label>
+                    
                         <tr>
-                            <td>Bakblikken:</td>
+                            <td><label>bakmiddelen: &nbsp;</label></td>
+                        </tr>
+                        <tr>
+                            <td>Bakblikken: <div id="resultaatBakblik"></div></td>
                         </tr>
                         <tr>
                             <td>breedte 5cm x lengte 10cm x hoogte 5cm &euro;1</td>
@@ -167,11 +165,12 @@
                             <td>breedte 6cm x lengte 25cm x hoogte 6cm. &euro;12</td>
                             <td><input autocomplete="off" min="0"  type="number" id="bakblik12" name="bakblik12" value="0" onchange="change();"></td>
                         </tr>
-                    <div id="resultaatBakblik"></div>
-                    <br />
-                    <label>bakmiddelen: &nbsp;</label>
+                    
                         <tr>
-                            <td>Springvormen:</td>
+                            <td><label>verpakkingsmiddelen: &nbsp;</label></td>
+                        </tr>
+                        <tr>
+                            <td>Springvormen: <div id="resultaatSpring"></div></td>
                         </tr>
                         <tr>
                             <td>diameter 10cm x hoogte 5cm &euro;5</td>
@@ -205,11 +204,9 @@
                             <td>diameter 30cm x hoogte 6cm. &euro;40</td>
                             <td><input autocomplete="off" min="0"  type="number" id="spring8" name="spring8" value="0" onchange="change();"></td>
                         </tr>
-                    <div id="resultaatSpring"></div>
-                    <br />
-                    <label>Verpakkingsmiddelen: &nbsp;</label>
+
                         <tr>
-                            <td>Kartonnen doos met doorkijkvenster:</td>
+                            <td>Kartonnen doos met doorkijkvenster: <div id="resultaatDoosblik"></div></td>
                         </tr>
                         <tr>
                             <td>Voor eetproduct uit bakblik (breedte 5cm x lengte 10cm x hoogte 5cm). &euro;3</td>
@@ -259,13 +256,9 @@
                             <td>Voor eetproduct uit bakblik (breedte 6cm x lengte 25cm x hoogte 6cm) &euro;39</td>
                             <td><input autocomplete="off" min="0"  type="number" id="doosblik12" name="doosblik12" value="0" onchange="change();"></td>
                         </tr>
-                    
-                    <div id="resultaatDoosblik"></div>
-                    <br />
-                    <label>Verpakkingsmiddelen: &nbsp;</label>
-                    
+
                         <tr>
-                            <td>- Kartonnen doos met doorkijkvenster:</td>
+                            <td>- Kartonnen doos met doorkijkvenster: <div id="resultaatSpringdoos"></div></td>
                         </tr>
                         <tr>
                             <td></td>
@@ -306,8 +299,7 @@
                             <td><input autocomplete="off" min="0"  type="number" id="springdoos8" name="springdoos8" value="0" onchange="change();"></td>
                         </tr>
                     </table>
-                    <div id="resultaatSpringdoos"></div>
-                    <br />
+                    
 			        <label >Persoonlijke gegevens : &nbsp;</label><br />
 			        <table border="0" width="520px">
 				        <tr>
@@ -390,8 +382,21 @@
 		        <hr>
                 <button type="button" name="bestel" onclick="verzendInfo();">Bestel</button>
                 <div id="resultaat"></div>
-            </div>
+                </div>
         </div>
-        
+        <div id="black"></div>
+        <div id="popupWrapper">
+				    <div id="popupResultaat" >
+					    <div id="popupTopBorder">
+						    <!-- popup close knop -->
+						    <div id="closeButton"onclick="closeButton();"></div>
+					    </div>
+					    <!-- content voor de popup dus alle resultaat divs -->
+					    <div id="popupContent">
+
+					    </div>
+				    </div>
+			    </div>
+            
     </body>
 </html>
