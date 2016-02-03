@@ -728,3 +728,7 @@ function groet(){
     }
 
 }
+
+function verzenden(){
+    alert('Uw bestelling is verzonden en wordt zo spoedig mogelijk geleverd.')
+}
