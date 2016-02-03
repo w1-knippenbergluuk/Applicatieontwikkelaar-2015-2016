@@ -705,7 +705,7 @@ function change() {
 function groet(){
     //aanmaken variablen
     var digitaal=new Date()
-    var uren=digitaal.geturen()
+    var uren=digitaal.getHours()
 
     //if statements om te kijken hoe laat het is met een melding
     if (uren>=5&&uren<12) {
