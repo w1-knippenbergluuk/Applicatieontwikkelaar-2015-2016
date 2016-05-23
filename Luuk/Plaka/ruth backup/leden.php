@@ -31,13 +31,28 @@
                 </div>
                 <div class="lidTest">
                     <div class="ledenImage">
-                        <a href="rianne.php"><p><span class="bold">Rianne van der Steen</span> <br /> Mode Ontwerpster</p></a>
+                        <a href="rianne.php"><p><span class="bold">Rianne van der Steen</span> <br /> Mode Vormgever</p></a>
                         <a href="rianne.php"><img src="images/rianne/ProfielfotoRiannebw.jpg" alt="Rianne van der Steen"/></a>
                     </div>
                     <div class="ledenText">
                         <p>
                             <span class="firstLetter">R</span>ianne van der Steen maakt geen mode, het is een stijl, 
                             een principe dat past bij een vrouw die goed in haar vel zit en geen tierlantijnen nodig heeft om haar persoonlijkheid te benadrukken.
+                        </p>
+                    </div>
+                </div>
+                <div class="lidTest">
+                    <div class="ledenImage">
+                        <a href="ruth.php"><p><span class="bold">Ruth van de Pol</span> <br />Beeldend Kunstenaar</p></a>
+                        <a href="ruth.php"><img src="images/ruthbw.jpg" alt="Ruth van de Pol"/></a>
+                    </div>
+                    <div class="ledenText">
+                        <p>
+                            <span class="firstLetter">S</span>inds 1996 actief als beeldend kunstenaar. 
+                        </p>
+                        <p>
+                            Ruth van de Pol  volgde haar opleidingen te Den Bosch (LO Tekenen) en aan Hogeschool Gelderland (docent) te Nijmegen
+                             en studeerde in 1996  (autonoom) af aan de Academie voor Beeldende Kunsten te Tilburg.
                         </p>
                     </div>
                 </div>

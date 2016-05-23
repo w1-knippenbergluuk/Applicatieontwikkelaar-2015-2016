@@ -65,6 +65,13 @@
                         <a class="example-image-link" href="images/ruth/reflections1.jpg" data-lightbox="example-set" data-title="Reflections 1"><img class="example-image" src="images/ruth/reflections1-180x180.jpg" alt=""/></a>
                         <a class="example-image-link" href="images/ruth/work-in-progress.jpg" data-lightbox="example-set" data-title="Work in progress"><img class="example-image" src="images/ruth/work-in-progress-180x180.jpg" alt=""/></a>
                         <a class="example-image-link" href="images/ruth/foto-11-640x480.jpg" data-lightbox="example-set" data-title="Atelier detail"><img class="example-image" src="images/ruth/foto-11-180x180.jpg" alt=""/></a>
+
+                        <a class="example-image-link" href="images/ruth/Overspoeld verlangen 1.jpg" data-lightbox="example-set" data-title="Overspoeld verlangen 1"><img class="example-image" src="images/ruth/Overspoeld verlangen 1_thumb.jpg" alt=""/></a>
+                        <a class="example-image-link" href="images/ruth/Overspoeld verlangen 2.jpg" data-lightbox="example-set" data-title="Overspoeld verlangen 2"><img class="example-image" src="images/ruth/Overspoeld verlangen 2_thumb.jpg" alt=""/></a>
+                        <a class="example-image-link" href="images/ruth/Maasmijmering 3.jpg" data-lightbox="example-set" data-title="Maasmijmering 3"><img class="example-image" src="images/ruth/Maasmijmering 3_thumb.jpg" alt=""/></a>
+                        <a class="example-image-link" href="images/ruth/Lost in the spires.jpg" data-lightbox="example-set" data-title="Lost in the spires"><img class="example-image" src="images/ruth/Lost in the spires_thumb.jpg" alt=""/></a>
+                        <a class="example-image-link" href="images/ruth/Winterday.jpg" data-lightbox="example-set" data-title="Winterday"><img class="example-image" src="images/ruth/Winterday_thumb.jpg" alt=""/></a>
+
                     </div> 
                     
                     <!--

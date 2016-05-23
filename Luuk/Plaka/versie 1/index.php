@@ -4,6 +4,7 @@
 ?>
         
             <div id="content">
+                <p style="text-align: center; font-weight: 800">Deze website is onder constructie.</p>
                 <h1>WELKOM BIJ PLAKA </h1>
                 <p class="bold">
                     PLAKA ateliers  is een initiatief van een groep verschillende kunstenaars en professionals.
